@@ -1,0 +1,2606 @@
+The Business Analysis Standard: v.A2.0
+The Business Analysis Standard: Preface i
+Preface
+The Business Analysis Standard serves as a foundation for professional business analysis,
+providing guidance to practitioners around the world. Developed in collaboration with an
+international community of business analysis professionals, the Standard reflects the collective
+experience and insights of its contributors. At IIBA, we are dedicated to curating valuable
+resources that equip professionals with the tools to drive better business outcomes. This latest
+iteration continues to embody that commitment, offering practical and reliable guidance rooted in
+established good practices.
+About IIBA
+For over 20 years, the International Institute of Business Analysis™ (IIBA®) has helped shape the
+practice of business analysis to achieve better enterprise outcomes. A professional association
+with 30,000 members, 120 chapters, 1,500 volunteers, and 500 partners worldwide, IIBA
+supports the recognition of business analysis within organizations. It enables networking
+and community engagement, provides foundational standards and resources, and offers
+internationally recognized certification programs for career advancement. For more information,
+visit iiba.org.
+What Continues to Guide Us
+The six knowledge areas and 30 business analysis task descriptions have not been changed.
+Anyone studying for certifications should reference A Guide to the Business Analysis Body of
+Knowledge (BABOK Guide) and the appropriate Certification Handbooks for detailed information.
+International Institute of Business Analysis, Pickering, Ontario, Canada.
+© 2025 International Institute of Business Analysis. All rights reserved.
+ISBN 978-1927584378
+IIBA®, the IIBA® logo, BABOK® and Business Analysis Body of Knowledge® are registered trademarks owned by International
+Institute of Business Analysis. No challenge to the status or ownership of these or any other trademarked terms contained
+herein is intended by the International Institute of Business Analysis.
+ii The Business Analysis Standard: Table of Contents
+Contents
+1. Introducing the Business Analysis Standard....................................................................... 1
+1.1 Defining the Standard....................................................................................................................................... 1
+1.2 Contributions to the Standard........................................................................................................................... 1
+1.3 Why the Need for the Standard?....................................................................................................................... 1
+1.4 Summary of Changes....................................................................................................................................... 2
+1.5 How to Gain the Most from the Standard.......................................................................................................... 2
+1.6 Glossary and Key Terms................................................................................................................................... 2
+1.7 Beyond the Standard........................................................................................................................................ 3
+2. Understanding Business Analysis..................................................................................... 5
+2.1 Defining Business Analysis............................................................................................................................... 5
+2.2 A Model for Effective Analysis — BACCM™....................................................................................................... 5
+2.3 Using the BACCM™.......................................................................................................................................... 6
+2.4 The Importance of Business Analysis............................................................................................................... 7
+2.5 Outcomes and Value Creation.......................................................................................................................... 7
+3. Mindset for Effective Business Analysis............................................................................ 9
+3.1 The Importance of Mindset.............................................................................................................................. 9
+3.2 The Way to Think About Business Analysis....................................................................................................... 9
+3.3 Business Analysis Principles...........................................................................................................................10
+3.4 Foundational Competencies............................................................................................................................11
+4. Implementing Business Analysis.....................................................................................13
+4.1 Who Performs Business Analysis?...................................................................................................................13
+4.2 Approaches to Business Analysis Work...........................................................................................................13
+4.2.1 Predictive Approach..................................................................................................................................14
+4.2.2 Adaptive Approach...................................................................................................................................14
+4.2.3 Hybrid Approach.......................................................................................................................................14
+4.3 Foundational Techniques................................................................................................................................15
+4.4 Understanding Requirements and Designs......................................................................................................16
+4.4.1 Working with Requirements and Designs...................................................................................................16
+4.4.2 Requirement Classification........................................................................................................................17
+4.4.3 Tracing Requirements and Designs...........................................................................................................18
+4.5 Organizational Considerations.........................................................................................................................18
+4.5.1 Security Integration...................................................................................................................................18
+4.5.2 Ethical Analysis.........................................................................................................................................18
+4.5.3 Inclusion and Representation....................................................................................................................19
+4.5.4 Sustainability Practices.............................................................................................................................19
+4.6 Managing the Delivery of Business Analysis................................................................................................... 20
+The Business Analysis Standard: Table of Contents iii
+5. Applying Business Analysis Tasks...................................................................................21
+5.1 Business Analysis Tasks................................................................................................................................. 21
+5.2 Task Card Structure....................................................................................................................................... 21
+5.3 Business Analysis Knowledge Areas.............................................................................................................. 22
+Business Analysis Task Navigation..................................................................................... 23
+Plan Business Analysis Approach..................................................................................................................... 23
+Plan Stakeholder Engagement.......................................................................................................................... 24
+Plan Business Analysis Governance.................................................................................................................. 25
+Plan Business Analysis Information Management............................................................................................. 26
+Identify Business Analysis Performance Improvements.................................................................................... 27
+Prepare for Elicitation....................................................................................................................................... 28
+Conduct Elicitation........................................................................................................................................... 29
+Confirm Elicitation Results................................................................................................................................ 30
+Communicate Business Analysis Information................................................................................................... 31
+Manage Stakeholder Collaboration................................................................................................................... 32
+Trace Requirements and Designs...................................................................................................................... 33
+Maintain Requirements and Designs................................................................................................................. 34
+Prioritize Requirements and Designs................................................................................................................. 35
+Assess Requirement and Design Changes........................................................................................................ 36
+Approve Requirements and Designs.................................................................................................................. 37
+Analyze Current State....................................................................................................................................... 38
+Define Future State........................................................................................................................................... 39
+Assess Risks.................................................................................................................................................... 40
+Define Change Strategy.....................................................................................................................................41
+Specify and Model Requirements and Designs.................................................................................................. 42
+Verify Requirements and Designs..................................................................................................................... 43
+Validate Requirements and Designs.................................................................................................................. 44
+Define Requirements Architecture.................................................................................................................... 45
+Define Design Options...................................................................................................................................... 46
+Analyze Potential Value and Recommend Solution............................................................................................ 47
+Measure Solution Performance......................................................................................................................... 48
+Analyze Performance Measures........................................................................................................................49
+Assess Solution Limitations............................................................................................................................. 50
+Assess Enterprise Limitations........................................................................................................................... 51
+Recommend Actions to Increase Solution Value............................................................................................... 52
+6. Summary..................................................................................................................... 53
+The Business Analysis Standard: Introducing the Business Analysis Standard 1
+1. Introducing the Business Analysis Standard
+Since its release in 2022, The Business Analysis Standard has set the foundation for the profession.
+To maintain the clarity and guidance business analysis professionals rely on, we have refined its
+content and structure. This update strengthens its foundation, ensuring it remains the definitive
+guide for business analysis.
+1.1 Defining the Standard
+The Standard serves as the foundation of professional business analysis, summarizing concepts and
+proven practices as the benchmark for discovering business value and creating enterprise outcomes.
+It is the result of work with hundreds of expert volunteers from the business analysis community
+and has been rigorously tested and tailored to be relevant for professionals seeking to gain a deeper
+understanding of proper analysis.
+By adhering to the Standard, individuals and organizations can enhance the quality of their work,
+improve communication among stakeholders, and align their practices with recognized industry
+norms. However, it is important to note that while standards provide guidance, they should be applied
+with consideration for the specific context and need of each initiative.
+1.2 Contributions to the Standard
+We adhere to the key principles of standard development set by the International Organization for
+Standardization (ISO):
+• We co-develop the Standard with the global business analysis community
+• We source input from industry leaders and professionals across sectors and regions
+• We hold multiple review cycles to integrate expert opinions and global feedback
+• We use a consensus-based approach to guide every step of the process
+This methodology reflects our commitment to rigour, precision, and excellence.
+In alignment with ISO House style, we have streamlined this document to focus solely on information
+essential for implementation. For details about the contributors and the development process behind
+the Standard, please visit the IIBA Contributors Section.
+1.3 Why the Need for the Standard?
+The Standard provides the direction for the future of the BABOK Guide. It is intended as a
+foundational guide for conducting effective business analysis. It will be adapted and updated to
+align with evolving business analysis community needs.
+2 The Business Analysis Standard: Introducing the Business Analysis Standard
+1.4 Summary of Changes
+This revision enhances readability, alignment with standards, and practical application,
+incorporating community feedback and simplifying complex ideas.
+• Readability and clarity: Streamlined language for easier comprehension and navigation
+• BABOK Guide alignment: Knowledge areas reorganized for consistency with the BABOK Guide
+• ISO style compliance: Adhered to ISO standards for uniformity
+° Glossary and key terms: Mapped to the BABOK Guide Glossary for shared terminology
+° Preface summary: Added a high-level overview for quick reference
+° Contributor recognition relocated to KnowledgeHub: Highlights external contributions
+° Heading numbering updated: Consistent structure for easier navigation
+° Content reordered for logical grouping: Similar content and related information are now grouped together for
+better flow and easier reference
+• New sections:
+° Outcomes and value: Expanded from “Value to be Delivered” to focus on outcomes
+° Organizational considerations: Added and revised content to address evolving organizational needs as they
+relate to foundational business analysis
+° General enhancements and elaboration of ideas: Expanded on concepts from the previous version, with
+added variety and depth to improve applicability
+1.5 How to Gain the Most from the Standard
+The Standard serves as an excellent starting point for exploring our detailed knowledge sources,
+which provide practical examples (accessible via embedded links).
+The business analysis community leverages the Standard in several ways:
+• Foundation for understanding: It provides the basis for comprehending the scope of business analysis work
+• Mentoring tool: It aids in mentoring individuals who are new to business analysis or a specific initiative
+• Educational resource: It educates stakeholders about the comprehensive nature of business analysis work
+• Comprehensive overview: It offers a simplified yet thorough view of business analysis
+• Gateway to knowledge: It acts as a portal to more detailed knowledge sources
+• User-friendly guide: It provides an easy-to-navigate view of business analysis tasks
+1.6 Glossary and Key Terms
+Where concepts are introduced within the Standard, the sections containing them are designed to
+be self-descriptive, providing sufficient context for immediate understanding. However, if further
+information is needed or if you would like to explore specific terminology in greater detail, please
+refer to the comprehensive KnowledgeHub Glossary.
+The Business Analysis Standard: Introducing the Business Analysis Standard 3
+1.7 Beyond the Standard
+The Standard uses examples to illustrate how the 30 business analysis tasks are applicable
+across IIBA’s suite of intellectual property and products, including:
+A Guide to the Business
+Analysis Body of Knowledge
+(BABOK Guide)
+Integrate your knowledge with the
+Business Analysis Core Concept
+Model (BACCM).
+Agile Extension to the
+BABOK Guide
+Apply effective agile business
+analysis to generate real business
+and customer value.
+The Guide to Business Data
+Analytics (BDA Guide)
+Get insights for informed
+decision-making.
+The Guide to Product
+Ownership Analysis
+(POA Guide)
+Create and deliver exceptional
+products and services.
+The Business Analysis
+Competency Model
+Unlock your potential to
+grow your career.
+The Strategy to Execution
+Framework
+Implement strategic business analysis
+to enable business transformation.
+Cybersecurity Analysis
+Enhance your knowledge of
+cybersecurity elements and analysis.
+4 The Business Analysis Standard: Understanding Business Analysis
+2. Understanding Business Analysis
+2.1 Defining Business Analysis
+Business analysis is the practice of enabling change in an enterprise by defining needs
+and recommending solutions that deliver value to stakeholders within a given context.
+There are several important concepts to understand in this definition:
+• Change: The act of transformation in response to a need
+• Need: A problem or opportunity to be addressed
+• Solution: A specific way of satisfying one or more needs in a context
+• Value: The worth, importance, or usefulness of something to a stakeholder within a context
+• Stakeholder: A group or individual with a relationship to the change, the need, or the solution
+• Context: The circumstances that influence, are influenced by, and provide an understanding of the change
+Business analysis relies on foundational principles, concepts, and practices to support its functions.
+These elements drive the creation of frameworks, processes, techniques, tasks, and competencies.
+They empower professionals and organizations to effectively achieve business outcomes.
+Regardless of organizational structures, industries, or methodologies, these fundamentals remain
+consistent. They apply whether working in adaptive environments, data analytics, cybersecurity,
+product ownership, or other areas. These principles ensure that business analysis continues to empower
+individuals and organizations across various initiatives.
+2.2 A Model for Effective Analysis — BACCM™
+The six core concepts highlighted in the
+definition of business analysis—change, need,
+solution, value, stakeholder, and context—
+form a powerful model for effective business
+analysis, the Business Analysis Core Concept
+Model™.
+The BACCM™ provides essential guidance for
+business analysis professionals and leaders.
+To truly understand and apply the foundations
+of business analysis, it is important to explore
+all six concepts and their relationships.
+Ignoring any concept or their connections can
+reduce the model’s effectiveness. Viewing
+business analysis as a system of interrelated
+concepts is crucial for success.
+The Business Analysis Standard: Understanding Business Analysis 5
+Stakeholder
+Value
+A group or individual with a relationship to the change, the need,
+or the solution
+The worth, importance, or usefulness of something to a stakeholder
+within a context
+• Stakeholders (both internal and external) are often defined by their interest, impact,
+and influence over the change
+• Stakeholders are grouped based on their relationship to the needs, changes, and
+solutions
+• Value can be:
+° Realized through potential returns, gains, and improvements, or
+° Preserved by mitigating losses, risks, and costs
+• Value can be tangible or intangible:
+° Tangible value is directly measurable and often has a significant monetary
+component
+° Intangible value is measured indirectly and often has a significant motivational
+component (e.g., company’s reputation or employee morale)
+• Value can be assessed in absolute or relative terms (e.g., one solution option is more
+valuable than another from the perspective of a group of stakeholders)
+Core Concept Description
+Change The act of transformation in response to a need
+• Organizations implement change to stay competitive, foster innovation, improve
+efficiency, and ensure long-term success in a dynamic and evolving environment
+• These enhancements are managed and completed through business analysis activities
+Need A problem or opportunity to be addressed
+• Needs can cause changes by motivating stakeholders to act
+• Changes can also cause needs by reducing or increasing the value delivered by existing
+solutions
+Solution A specific way of satisfying one or more needs in a context
+• A solution satisfies a need by:
+° Resolving a problem faced by stakeholders, or
+° Enabling stakeholders to take advantage of an opportunity
+• A solution can include a combination of components that deliver the desired value, for
+example:
+° Technology-based initiatives
+° Manual procedures
+° Process changes
+° Business model updates
+° Improving organizational capabilities
+6 The Business Analysis Standard: Understanding Business Analysis
+Core Concept Description
+Context The dynamic circumstances that influence, are influenced by, and provide
+an understanding of the change
+• Context is everything within the environment relevant to the change which can include:
+° Attitudes
+° Behaviours
+° Beliefs
+° Competitors
+° Culture
+° Demographics
+° Geopolitics
+° Goals
+° History
+° Industry
+° Infrastructure
+° Market trends
+° Processes
+° Products
+° Projects
+° Regulations
+° Sales
+° Seasons
+° Structure
+° Technology
+° Weather
+2.3 Using the BACCM™
+The BACCM™ is a “thinking model” and an “organizing model” for effective business analysis.
+It is used to:
+• Describe effective and efficient business analysis
+• Communicate about business analysis with a common language
+• Identify professional development opportunities for individuals
+• Perform better business analysis by evaluating the relationships among these six concepts
+• Evaluate the impact of these concepts and relationships
+• Establish both a foundation and a path forward
+• Consider the quality and completeness of work being done
+The Business Analysis Standard: Understanding Business Analysis 7
+2.4 The Importance of Business Analysis
+Business analysis serves several critical functions:
+1. Problem understanding: Business analysis goes beyond merely addressing the symptoms of organizational
+challenges. It dives into the underlying causes of these issues, unraveling complexities to identify the sources
+of friction. This deep understanding enables the development of targeted and effective solutions that tackle the
+core of the problem, ensuring long-term improvement and success.
+2. Needs prioritization: In a sea of organizational requirements, business analysis is the compass, guiding
+enterprises to prioritize their needs effectively. By understanding the relative importance of various
+requirements, resources can be allocated efficiently to achieve maximum impact.
+3. Value-centric solutions: Business analysis is not just about solving problems; it is about crafting and
+communicating cohesive solutions that deliver meaningful value. By focusing on outcomes and measurable
+results, business analysis ensures that initiatives contribute directly to the organization’s success.
+4. Risk management: Change inherently carries risks, but effective business analysis proactively identifies,
+assesses, and takes appropriate actions regarding these risks. By integrating risk management into decisionmaking
+processes, business analysis promotes resilience and long-term viability.
+5. Performance enhancement: Business analysis is not restricted to a project or product lifecycle and does not
+stop at implementation; it continuously monitors and evaluates outcomes. This iterative approach enables
+organizations to fine-tune their strategies and processes, driving ongoing improvement and enhancing overall
+performance.
+6. Value delivery: At its core, business analysis is about generating change to deliver value. Whether it is
+enhancing customer experiences, optimizing internal operations, or fostering innovation, business analysis
+strives to realize beneficial outcomes for stakeholders. However, it is important to recognize that it may not
+always be possible to deliver value for all stakeholders. The goal is to maximize value for the majority while
+addressing and managing the concerns of others.
+7. Stakeholder collaboration: Organizations are ecosystems of interconnected stakeholders, and effective
+collaboration is essential for success. Business analysis breaks down silos, fostering collaboration and
+alignment across diverse perspectives and interests.
+8. Leadership support: Clear direction and vision are paramount for motivating teams and driving success.
+Business analysis enables leaders to articulate purpose, set goals, and communicate expectations, empowering
+teams to work toward a common vision.
+9. Agility: In a competitive business environment, adaptability is key to survival. Business analysis supports
+predictive, adaptive, and hybrid approaches to enable organizations to become nimble in the face of changing
+market conditions, customer needs, and technological advancements. By combining forward-looking
+predictions with real-time adaptability and hybrid strategies, business analysis ensures long-term relevance and
+competitiveness.
+By focusing on these foundational components, business analysis equips organizations with the
+insights, strategies, and capabilities needed to navigate complexity, drive innovation, and achieve
+sustainable growth.
+2.5 Outcomes and Value Creation
+Every organization strives to create desired outcomes that deliver important benefits. Value is discovered
+throughout the initiative when benefits are delivered as efficiently and effectively as possible. At a
+strategic level, this is driven by sound decisions that position the organization for future success. Tactical
+execution and the ongoing journey of operational excellence help create value along that path to the
+desired outcomes. Value is often created through managing initiatives that work together to address
+organizational challenges and to capitalize on opportunities. This helps evolve the organization to its
+desired outcomes, which is often represented by a combination of described future states through
+individual components of work.
+Business analysis is critical to all organizational work, including at the strategic, tactical, and operational
+levels. Selected business analysis techniques, practices, methods, approaches, and competencies
+combine to create value throughout the organization, over various timeframes and for a variety of
+8 The Business Analysis Standard: Understanding Business Analysis
+stakeholders. This can also be viewed from the lens of the three horizons described in the Agile Extension
+to the BABOK Guide. Here, the strategy horizon is aligned to creating outcomes at the strategic level.
+Both the initiative horizon and delivery horizon focus on creating desired outcomes at the tactical and
+operational levels.
+Effective business analysis plays a crucial role in helping create value as we work toward the desired
+outcomes. It includes:
+• Understanding organizational strategy
+• Clarifying business problems and opportunities
+• Communicating desired outcomes
+• Translating business needs into requirements and designs
+• Identifying the potential value to be created
+• Discovering, interpreting, and communicating business information
+• Understanding the context to share knowledge and drive insights
+• Identifying and assessing impacted stakeholders
+• Helping teams assess trade-offs and prioritize value creation
+• Supporting the development of high-value solutions
+• Driving teams toward desired business outcomes
+In this way, business analysis drives informed decision-making and optimizes value creation throughout
+an organization's journey to achieve desired outcomes.
+The Business Analysis Standard: Mindset for Effective Business Analysis 9
+3. Mindset for Effective Business Analysis
+3.1 The Importance of Mindset
+A mindset is the mental framework that guides decision-making, behaviour, and team dynamics.
+Mindset influences how we think and act in various situations. It is important to maintain a flexible,
+adaptable view of how business analysis can be used to create desired value. Every situation is unique,
+and there is no single analysis approach. There are many techniques, processes, and tools that can be
+used in different combinations, depending on the context.
+Habits, attitudes, behaviours, and practices are required to confidently navigate situations where
+knowing exactly what needs to be done is impossible. An empowering mindset can be developed with a
+deliberate practice focused on:
+• Achieving organizational outcomes
+• Discovering value for stakeholders
+• Adopting appropriate business analysis principles
+• Deciding how to approach the work
+• Actively developing foundational competencies
+• Being able to use foundational techniques
+Collectively, these provide business analysis professionals with the ability to:
+• Create high-quality outcomes
+• Uncover value in navigating toward those outcomes
+• Prioritize focus
+• Empathize with and constantly learn from impacted stakeholders
+• Collaborate to build allies for change
+• Assess context and adapt to realities and feedback
+• Simplify the building and sharing of knowledge
+3.2 The Way to Think About Business Analysis
+Business analysis is a human-centred, creative process aimed at achieving desired outcomes and
+driving organizational change. It involves maintaining an open mind, selecting appropriate techniques,
+processes, and tools, and ensuring competency coverage within teams to create value effectively.
+Applying the BACCMTM helps develop and share information about the outcome to be created. Shared
+values help drive this work. They include:
+• Respect
+• Courage
+• Collaboration
+• Ethics
+• Curiosity
+• Continuous learning
+• Improvement
+• Customer focus
+• Value maximization
+10 The Business Analysis Standard: Mindset for Effective Business Analysis
+A flexible, adaptable mindset supports the work of:
+• Influencing strategy
+• Empathizing with real customers
+• Changing processes
+• Engaging stakeholders within the business ecosystem
+• Driving feedback and learning based on evidence
+• Leveraging technology to implement and support the changes needed
+3.3 Business Analysis Principles
+The following business analysis principles detailed in the Agile Extension are critical ingredients for an
+effective mindset:
+• See the whole
+• Think as a customer
+• Analyze to determine what is valuable
+• Get real using examples
+• Understand what is doable
+• Stimulate collaboration and continuous improvement
+• Avoid waste
+Stimulate collaboration
+and continuous
+improvement
+See the
+whole
+Avoid waste
+Understand
+what is doable
+Get real
+using examples
+Analyze to determine
+what is valuable
+Think as a
+customer
+The Business Analysis Standard: Mindset for Effective Business Analysis 11
+Principle Description
+See the whole
+• Analyze needs in the big picture context and identify why a change is necessary
+• Desired outcomes are created by understanding the context, the solution,
+and the stakeholders
+Think as a customer
+• Understand customer experience needs to build solutions that address
+those needs
+• The team starts with a high-level view of customer needs and breaks them
+down into detailed understanding that is used to evolve the emerging solution
+Analyze to determine
+what is valuable
+• Continuously assess and prioritize work to maximize the value being delivered
+• The value in the change is realized by understanding the context, needs,
+stakeholders, and solution possibilities
+Get real using examples
+• Assessing real examples is important for building a shared understanding of
+the need and how the solution will satisfy that need
+• Examples can also be used to derive acceptance criteria, help design the
+solution, and provide a foundation for testing the solution
+Understand what is doable
+• Understand how to deliver a solution within constraints by continually
+analyzing needs and the solutions that can satisfy a prioritized need
+• Constraints also need to be considered within the operational environment
+to ensure the solution delivers the value intended
+Stimulate collaboration and
+continuous improvement
+• Help create an environment where all stakeholders contribute to value
+on an ongoing basis
+• Use continuous feedback to adapt the solution and its processes to
+increase the delivered value
+Avoid waste
+• Identify activities that add value and those that do not
+• Remove activities that do not contribute to satisfying the need
+3.4 Foundational Competencies
+The more individuals are proficient in a competency, the more they can apply it in the right
+context—and the more they are able to create the desired value.
+Foundational competencies are the basic skills, abilities, and characteristics necessary to perform
+effective business analysis. Business analysis professionals should also leverage the underlying
+competencies to build upon that foundation, evolving their skills and understanding to be able to adapt
+to any initiative.
+Underlying competencies are applied in many contexts and on different types of initiatives:
+• Process redesign
+• Business architecture
+• Technology solutions implementation
+• Digital transformation initiatives
+• Data warehousing initiatives
+12 The Business Analysis Standard: Mindset for Effective Business Analysis
+• Cybersecurity initiatives
+• Business data analytics
+• Product ownership analysis-related work
+The BABOK Guide describes 29 underlying competencies that support business analysis tasks.
+The Business Analysis Competency Model describes how competencies can be applied when
+executing those tasks.
+Ongoing stakeholder engagement is necessary for building a shared understanding of the change
+effort, the value to be discovered, and the actual work to drive the change. The following five
+competencies were identified by the global community as important for any type of initiative and
+should be developed by all business analysis professionals:
+Adaptability
+Adjusting behavioural style to increase effectiveness
+See: BABOK Guide, 9.2.5 Adaptability
+Facilitation
+Facilitating workshops, negotiating, and helping resolve conflicts
+See: BABOK Guide, 9.5.1 Facilitation
+Leadership and
+Influencing
+Building consensus, recommending solutions, and guiding stakeholders
+to the desired value
+See: BABOK Guide, 9.5.2 Leadership and Influencing
+Problem
+Solving
+Ensuring that created value addresses the root cause of problems
+See: BABOK Guide, 9.1.4 Problem Solving
+Systems
+Thinking
+Holistically understanding the enterprise and context to maximize the value
+delivered
+See: BABOK Guide, 9.1.5 Systems Thinking
+The Business Analysis Standard: Implementing Business Analysis 13
+4. Implementing Business Analysis
+4.1 Who Performs Business Analysis
+Any individual engaged in the following activities stands to benefit from applying business
+analysis:
+• Understanding and developing enterprise strategy, goals, objectives, and outcomes
+• Creating new or improved value propositions and streams
+• Enabling, supporting, and driving change within an organization
+• Analyzing needs and designing solutions
+• Facilitating stakeholder collaboration and engagement
+• Creating innovative products and services
+• Designing and implementing new processes or improving existing ones
+• Streamlining and improving operational activities to support organizational outcomes
+Business analysis is a versatile skill set that can be applied to any role within an organization. The role of
+a business analysis professional is not confined to a specific job title. Instead, it encompasses anyone
+who leverages business analysis as a skill set to enhance the quality of their work. By utilizing business
+analysis concepts, practices, and tasks, professionals across these varied positions can generate highvalue
+outcomes and drive organizational success.
+For developing and refining competencies, referencing the Business Analysis Competency
+Model is essential. It serves as a research and reference guide, empowering business analysis
+professionals to continuously develop skills in real time to meet organizational needs. This
+model is applicable to anyone involved directly or indirectly in the business analysis profession,
+regardless of their official job role or title.
+4.2 Approaches to Your Work
+Business analysis professionals can perform their work in different enterprises, organizations, and
+environments. Each may require different policies and procedures, methodologies, and standards.
+In addition to intentionally developing a mindset that empowers their approach to work, business
+analysis professionals begin most initiatives with the intentional selection of the approach that
+best applies to the outcome that needs to be produced.
+There are three approaches to enable change in an enterprise:
+• Predictive
+• Adaptive
+• Hybrid
+Each approach can be valuable depending on the context for the change. It is important to understand
+how to create value with any of these approaches.
+14 The Business Analysis Standard: Implementing Business Analysis
+4.2.1 Predictive Approach
+Predictive approaches start with a plan. They are considered predictive
+because they try to identify all the information needed to create the
+desired value.
+• Plan all the work up front and then work your plan
+• Consider everything that needs to be done
+• Create documents and models to describe what will be built, including:
+° Scope statement
+° Requirements documents
+° Design documents
+° Schedule baseline
+° Cost baseline
+° Test plans
+• Track progress against the plan
+Step-by-step
+4.2.2 Adaptive Approach
+Adaptive or iterative approaches focus on delivering value in small,
+prioritized increments.
+• Prioritize high-value outcomes or deliverables
+• Plan for the upcoming iterations first
+• Create the outcome defined for each increment (just enough and just-in-time
+documentation)
+• Focus on:
+° Value creation
+° Workable solutions
+° Speed of delivery
+° The time it takes to create the desired value
+• Share what is created with stakeholders to elicit feedback
+Learn and adapt
+4.2.3 Hybrid Approach
+Hybrid approaches describe work in an organization where:
+• Some initiatives use a predictive approach and others use an adaptive approach
+• Parts of an initiative use a predictive approach and parts of the same initiative use
+an adaptive approach
+Use what works best
+Refer to the BABOK Guide: Perspectives — Agile Perspective — Approaches for information on various Agile approaches.
+The Business Analysis Standard: Implementing Business Analysis 15
+In some cases, an approach will be imposed on the team. Whenever the business analysis
+professionals can choose the approach, they should consider:
+• Using a predictive approach where the work is:
+° Well-defined
+° Heavily regulated
+° Relatively straightforward, or
+° Can be completed sequentially
+• Using an adaptive approach when a solution is being built to:
+° Address business needs that are complex
+° Find solutions for poorly defined challenges
+° Deal with uncertainty, or
+° Manage emerging needs as the solution is being built
+• Learning how to create value using any of the approaches
+Refer to “How do I…Identify What Needs to Be Done.” This provides additional information about both predictive and
+adaptive approaches, including case study examples.
+4.3 Foundational Techniques
+There are more than 90 business analysis techniques in total, described in the following:
+• BABOK Guide
+• Agile Extension
+• BDA Guide
+• POA Guide
+Each technique can be beneficial in the right context to help create the desired value. The global
+community identified the following as applicable for many different types of initiatives. They are a
+good starting point for new business analysis professionals:
+Backlog
+Management
+The planned approach to record, track, and prioritize the remaining work items
+See: Agile Extension to the BABOK Guide, 7.1 Backlog Refinement
+Customer
+Journey
+Mapping
+Visually defining the end-to-end customer experience, including motivations and
+experience when interacting with the solution
+See: Guide to Product Ownership Analysis, 6.4 Customer Journey Map
+Data
+Storytelling
+Providing business context or highlighting key insights from data with an engaging
+narrative to drive better business decisions
+See: Guide to Business Data Analytics, 3.7 Data Storytelling
+Process
+Analysis
+Analyzing processes for their efficiency and effectiveness and identifying
+opportunities for creating greater value
+See: BABOK Guide, 10.34 Process Analysis
+Workshops/
+Interviews
+Collaborating with stakeholders to learn, teach, assess, or review important
+business information and drive the desired value
+See: BABOK Guide, 10.50 Workshops, and BABOK Guide, 10.25 Interviews
+16 The Business Analysis Standard: Implementing Business Analysis
+4.4 Understanding Requirements and Designs
+Requirements and designs are harmonious tools for crafting effective solutions that address
+organizational needs.
+Requirements serve as the foundation, capturing the essence of what stakeholders require to
+achieve their objectives or address their problems. They guide the decisions to be made by outlining
+the functionalities, constraints, and expectations of the desired outcome.
+Designs, on the other hand, transform these requirements from representative inputs into actionable
+initiatives, plans, and systems that model the structure, components, and architecture of a proposed
+solution.
+4.4.1 Working with Requirements and Designs
+Requirements and designs can be represented as an artifact, a set of documents, or a variety of models.
+Since they are similar in nature, it is important to understand the differences between requirements and
+designs. While the same tasks and techniques can be used to create both, the purposes they serve are
+unique.
+Requirements and designs are interdependent and cyclical. As designs are created, they can reveal new
+insights that enhance the requirements. Similarly, changing requirements might lead to updates in the
+design. This ongoing feedback loop ensures that both requirements and designs stay aligned and are
+continually refined throughout the initiative.
+Requirements Designs
+• A requirement is a usable representation of a need
+• Requirements focus on understanding what kind of
+value could be delivered when fulfilled
+• A design is a usable representation of a solution
+• Design focuses on understanding how value might
+be realized by a solution if it is built
+Requirements — The Need Designs — The Potential Solution
+• Capture six-month sales data across multiple
+departments in a view • Sketch of a dashboard
+• Reduce the amount of time to pick and pack a
+customer order • Process model
+• Record and access a medical patient’s history • Screen mock-up showing specific data fields
+• Develop business strategy, goals, and objectives
+for a new business • Business Capability Model
+• Provide information in English and French • Prototype with text displayed in English and French
+Examples:
+The Business Analysis Standard: Implementing Business Analysis 17
+4.4.2 Requirement Classification
+As mentioned above, a requirement is “a usable representation of a need.” The BABOK Guide
+lists four main requirement types–business, stakeholder, solution (including functional and nonfunctional
+requirements), and transition requirements. In addition to these, business analysis can
+help an enterprise meet its commitment to sustainability.
+4.4.2.1 Business Requirements
+Statements of goals, objectives, and outcomes for why a change has been initiated. They can
+apply to the whole enterprise, a business area, or a specific initiative.
+4.4.2.2 Stakeholder Requirements
+The needs of stakeholders that must be met to achieve the business requirements. They may
+serve as a bridge between business and solution requirements.
+4.4.2.3 Solution Requirements
+The capabilities and qualities of a solution that meet the stakeholder requirements. They provide the
+detail to allow for the development and implementation of the solution. Solution requirements can be:
+4.4.2.3.1 Functional requirements: the capabilities a solution must have for the behaviour and
+information the solution will manage.
+4.4.2.3.2 Non-functional requirements or quality of service requirements: the conditions or
+qualities a solution must have. See BABOK Guide, 10.30 Non-Functional Requirements Analysis
+4.4.2.4 Transition Requirements
+The capabilities and the conditions needed to facilitate a transition from the current to the future state.
+They are temporary and address areas such as data conversion, training, and business continuity.
+REQUIREMENTS DESIGN CYCLE
+BUSINESS
+REQUIREMENTS
+TRANSITION
+REQUIREMENTS
+STAKEHOLDER
+REQUIREMENTS
+SOLUTION
+REQUIREMENTS
+(BABOK Guide — 2.5 Requirements and Designs)
+WHY
+CHANGE WHAT
+HOW
+18 The Business Analysis Standard: Implementing Business Analysis
+4.4.3 Tracing Requirements and Designs
+Traceability is the ability for tracking the relationships between requirements and designs from
+the original stakeholder need to the actual implemented solution. Traceability supports change
+control by ensuring the source of a requirement or design can be identified and other related
+requirements and designs potentially affected by a change are known.
+It is difficult to accurately represent needs and solutions without considering their relationships. The
+traceability of requirements and designs is used to identify and document the lineage of each requirement
+and design, including its backward traceability to the original business need, its forward traceability to
+the solution components, and its relationship to other requirements and designs. Traceability can help
+ensure the solution conforms to requirements and designs and can assist in scope, impact, change, risk,
+time, cost, and communication management.
+Organizations often trace their requirements and designs using a traceability modelling structure. A
+traceability model enables bi-directional tracking of requirements and designs by visually linking them
+to the business need and solution components through matrices and diagrams. Using a traceability
+model helps to detect missing requirements and designs or identify solution components that are not
+supported by any requirement or design.
+4.5 Organizational Considerations
+Organizational considerations encompass topics influencing how all organizational members perceive
+their impact on the world around them. These topics often revolve around crucial social issues and hold
+significant importance for organizational leaders.
+4.5.1 Security Integration
+Building Resilience, Securing Futures
+When performing business analysis, security holds immense importance in ensuring the involvement
+of the right stakeholders and cultivating a broad understanding of the subject matter. Business analysis
+professionals do not necessarily need to be subject matter experts, but they can help stakeholders from
+different backgrounds work together by having a solid understanding of security principles.
+Business analysis professionals help teams identify security risks, consider appropriate safety measures,
+and make effective decisions. They play a pivotal role in facilitating collaboration between technical and
+non-technical stakeholders, aligning security initiatives with organizational objectives, and ensuring a
+safe and secure product, service, or business environment.
+For more in-depth information on security guidelines and considerations in the context of business
+analysis and technology, please refer to The Elements of Cybersecurity Analysis.
+4.5.2 Ethical Analysis
+Navigating Integrity, Guiding Progress
+In the practice of business analysis, the importance of ethics being understood and applied effectively
+cannot be overstated. Ethics must be considered, which necessitates conducting careful analysis that
+eliminates any personal biases.
+The Business Analysis Standard: Implementing Business Analysis 19
+The emphasis shifts to ensuring that stakeholders’ needs are ethically met while also considering the
+value to be discovered. This is especially important in a solution environment where artificial intelligence
+is on the rise and many solutions will be delivered using an automated system.
+When the “best” choice and the “ethical” choice do not align, problems may result. In such situations,
+navigating these difficulties can seem like an overwhelming feat. IIBA’s Code of Ethical Conduct and
+Professional Standards provides in-depth information on ethical guidance in the context of business
+analysis. It acts as a blueprint for upholding moral behaviour and making judgment calls that are
+advantageous to the organization and its stakeholders.
+Ultimately, it is the responsibility of the business analysis professional to ensure that the work being
+performed is in line with this code while simultaneously generating value.
+4.5.3 Inclusion and Representation
+Diverse Perspectives, Innovative Outcomes
+Today, building inclusive teams is more than an ethical consideration. It is a key driver of innovation and
+sustainable growth in modern workplaces. Business analysis professionals serve as catalysts for this
+transformation, recognizing that true innovation thrives in environments where diverse perspectives are
+not only acknowledged but actively cultivated.
+By championing inclusion as a fundamental organizational value, business analysis professionals
+play a vital role in shaping workplace cultures where every stakeholder feels valued, respected, and
+empowered to contribute their unique experiences. They go beyond mere representation to actively
+seek out and amplify diverse voices, understanding that diversity drives creative problem-solving.
+Through their efforts, business analysis professionals foster environments where individuals from all
+perspectives and backgrounds feel a sense of belonging and are encouraged to bring their whole selves
+to work. This inclusive mindset permeates every aspect of organizational life, from planning to decisionmaking,
+ensuring that diverse perspectives are integral to every initiative.
+Ultimately, by championing inclusion, business analysis professionals drive innovation and create
+workplaces where individuals thrive, collaboration flourishes, and organizations achieve their full
+potential.
+4.5.4 Sustainability Practices
+Today’s Needs, Tomorrow’s Resources
+Although there are several definitions of sustainability, they all refer to a version of executing an
+organization’s business model to meet current needs while preserving or conserving natural resources
+for future generations. Sustainability also includes advancing social equity, health, and economic viability
+to achieve desired outcomes.
+Business analysis professionals play a critical role in aligning organizational strategies, processes,
+and systems with sustainability outcomes. This involves identifying opportunities for improvement
+within operations, products, and services, and recommending solutions that promote environmental
+responsibility, social equity, and economic viability. Collaboration with stakeholders is key to ensuring
+that sustainability considerations are integrated into strategic planning and decision-making processes.
+20 The Business Analysis Standard: Implementing Business Analysis
+4.6 Managing the Delivery of Business Analysis
+Organizing business analysis services is crucial for an organization to establish standards that fit its
+unique context. These standards encompass processes, procedures, templates, and guidelines.
+Delivering business analysis services can take various forms, including:
+• Centre of Excellence (CoE): A specialized unit or function dedicated to business analysis excellence
+• Community of Practice (CoP): A collaborative space where professionals share experiences, expertise, and
+best practices
+• Business Analysis as a Service (BAaS): Outsourcing business analysis functions to specialized service
+providers
+• Dispersed across business units: Integrating business analysis functions into various departments or units
+Many organizations combine these approaches to effectively deliver business analysis services. Success
+lies in leveraging the Standard to ensure consistency, quality, and adherence to appropriate practices,
+regardless of the chosen approach.
+Furthermore, fostering collaboration among business analysis professionals is essential. Sharing
+knowledge, tools, and experiences enhances the quality of work and ensures strategic alignment across
+the organization.
+The Business Analysis Standard: Applying Business Analysis Tasks 21
+5. Applying Business Analysis Tasks
+5.1 Business Analysis Tasks
+It is vital to recognize that the business analysis skill set encompasses a broad spectrum of tasks
+applicable in various organizational contexts. These 30 tasks, detailed in the BABOK Guide, serve as
+foundational components of effective business analysis.
+When navigating through initiatives, it is important to:
+• Understand that tasks may not follow a linear sequence and can be carried out concurrently
+• Recognize that some tasks generate outputs vital for subsequent ones
+• Embrace iteration to deepen comprehension of change and value
+• Be prepared to manage, review, and repeat certain tasks as needed
+• Leverage tasks to build and share knowledge about the desired outcomes and value to be created
+• Implement tasks flexibly across different types of initiatives, from understanding business needs to
+implementing solution components and beyond
+• Embrace the flexibility of tasks, as they can be executed by professionals in various roles, initiated by one
+individual, and completed by others; this proves invaluable across a range of domains, including but not limited
+to requirements definition, solution implementation, architecture management, and process redesign
+5.2 Task Card Structure
+In today’s business environment, effective business analysis is crucial. To support this need, we created
+the Business Analysis Task Cards. These cards are structured, user-friendly tools for business analysis
+professionals and stakeholders to streamline workflows, ensure consistency, and improve analysis
+quality.
+The task cards listed in “Section 6: Business Analysis Task Navigation” provide a structured and easily
+accessible format for referencing each business analysis task, aligned to the BACCM™ framework. Within
+each card, you will find comprehensive information including:
+1. Purpose or need: Clearly defines why the task is performed, outlining its significance in the context of the initiative
+2. Value: Articulates the value generated by executing the task, highlighting its contributions toward achieving
+initiative objectives or delivering business outcomes
+3. Solution (output or outcome): Specifies the tangible deliverables or desired outcomes resulting from the
+successful completion of the task
+4. Stakeholders: Identifies the key stakeholders involved or impacted by the task, facilitating effective
+communication and collaboration throughout the process
+5. Description of change: Presents a structured overview of the change process associated with the task, typically
+depicted through an input-task-output diagram—a visual representation helps illustrate the flow of information
+and activities involved
+6. Frequently used techniques in context: Provides guidance and strategies with examples of techniques that can
+be used when executing the task
+7. Consideration box: Provides an example emphasizing the importance of the task in one specific context to help
+practitioners visualize how the task can be used on the path to creating desired outcomes
+Our goal is to empower business analysis professionals with practical resources that ensure they have
+all essential information to navigate tasks efficiently. By doing so, we aim to enhance their effectiveness
+in contributing to better enterprise outcomes and sustained business growth.
+22 The Business Analysis Standard: Applying Business Analysis Tasks
+5.3 Business Analysis Knowledge Areas
+The Standard does not include information on the knowledge areas defined in the BABOK Guide. For
+comprehensive details on these knowledge areas, please refer to the BABOK Guide.
+This does not imply that the following tasks do not belong to the knowledge areas or alter the structure
+of the BABOK Guide. Instead, the Standard focuses on providing practical, task-level guidance for
+business analysis activities. These tasks can be referenced and implemented in the order that best suits
+the needs of business analysis professionals and stakeholders. By concentrating on tasks, the Standard
+aims to offer actionable and practical instructions that directly support business analysis professionals
+in their daily responsibilities.
+Business Analysis Planning
+and Monitoring
+• Plan Business Analysis
+Approach
+• Plan Stakeholder Engagement
+• Plan Business Analysis
+Governance
+• Plan Business Analysis
+Information Management
+• Identify Business Analysis
+Performance Improvements
+Strategy Analysis
+• Analyze Current State
+• Define Future State
+• Assess Risks
+• Define Change Strategy
+Elicitation and Collaboration
+• Prepare for Elicitation
+• Conduct Elicitation
+• Confirm Elicitation Results
+• Communicate Business
+Analysis Information
+• Manage Stakeholder
+Collaboration
+Requirements Analysis
+and Design Definition
+• Specify and Model
+Requirements and Designs
+• Verify Requirements and Designs
+• Validate Requirements
+and Designs
+• Define Requirements
+Architecture
+• Define Design Options
+• Analyze Potential Value
+and Recommend Solution
+Requirements and Designs
+Life Cycle Management
+• Trace Requirements and Designs
+• Maintain Requirements and
+Designs
+• Prioritize Requirements
+and Designs
+• Assess Requirement
+and Design Changes
+• Approve Requirements
+and Designs
+Solution Evaluation
+• Measure Solution Performance
+• Analyze Performance
+Measures
+• Assess Solution Limitations
+• Assess Enterprise Limitations
+• Recommend Actions to
+Increase Solution Value
+Input Task Output or Deliverable
+Needs
+Plan Business
+Analysis
+Approach
+Business Analysis
+Approach
+The Business Analysis Standard: Business Analysis Planning and Monitoring — Knowledge Area 23
+Plan Business Analysis Approach
+To define an appropriate method to conduct business analysis activities.
+Ensure the efficient performance of all
+business analysis activities with a stakeholdersupported
+approach.
+A defined business analysis approach that
+includes planned activities, tasks, and
+deliverables.
+Typically involves sponsors, project managers,
+domain subject matter experts, regulators, and
+any additional stakeholders identified.
+Frequently used techniques:
+• Business cases
+• Financial analysis
+• Functional decomposition
+• Item tracking
+• Risk analysis and management
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task describes the overall method that will be followed when performing business analysis work, what
+business analysis tasks will be performed, how and when business analysis tasks will be performed, and the
+business analysis deliverables that will be produced.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Plan Business Analysis Approach provides a plan to follow in business analysis activities.
+This task is equally important for an adaptive approach. Shorter-term execution steps are planned and aligned with what
+needs to be created during each iteration. This means repeating planning activities during each iteration and focusing on
+near-term delivery goals.
+See Guide to Product Ownership Analysis – 4.3 POA and Agile Planning Horizons
+Reference (Guidelines and Tools)
+The following resources, if they exist, can be used to
+transform inputs into outputs:
+• Business analysis performance assessment
+from previous initiatives
+• Business policies
+• Expert judgment
+• Methodologies and frameworks
+• Stakeholder engagement approach
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Business Analysis
+Approach Needs
+Plan
+Stakeholder
+Engagement
+Stakeholder
+Engagement
+Approach
+24 The Business Analysis Standard: Business Analysis Planning and Monitoring — Knowledge Area
+Plan Stakeholder Engagement
+To plan an approach for establishing and maintaining effective working relationships with the stakeholders.
+Identifying the stakeholders, how proposed
+changes may impact them, and how they might
+influence the change is vital to understanding
+what needs and expectations must be satisfied
+by a solution.
+A defined stakeholder engagement approach
+that includes the list of the stakeholders,
+their roles and responsibilities, their main
+characteristics, and a collaboration and
+communication approach.
+Typically involves sponsors, project managers,
+domain subject matter experts, customers,
+and anyone who will impact or be impacted by
+the initiative.
+Frequently used techniques:
+• Document analysis
+• Interviews
+• Organizational modelling
+• Scope modelling
+• Stakeholder list, map, persona
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task helps identify the stakeholders relevant to the change, their role in the change, their main
+characteristics, the information business analysis professionals need from them (and vice versa), and how best
+to collaborate with them, taking into account their communication needs.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Effectively engaging stakeholders is critical to success.
+In the context of business analysis, it is vital to recognize when to involve cybersecurity experts. You do not need to
+be a cybersecurity expert, but you must know when to bring them in to guide the conversation effectively and address
+stakeholder concerns. Your role is to ask the right questions and ensure alignment with cybersecurity best practices.
+See Guide to Business Data Analytics – 2.1.2 Identify and Understand the Stakeholders
+Reference (Guidelines and Tools)
+The following resources, if they exist, can be used to
+transform inputs into outputs:
+• Business analysis performance assessment
+• Change strategy
+• Current state description
+Task Inputs and Outputs
+Description of Change
+Techniques Stakeholder
+Value Solution
+Purpose or Need
+Input Task Output or Deliverable
+Business Analysis
+Approach
+Plan Business
+Analysis
+Governance
+Governance
+Approach
+Stakeholder
+Engagement
+Approach
+The Business Analysis Standard: Business Analysis Planning and Monitoring — Knowledge Area 25
+Plan Business Analysis Governance
+To define how decisions are made about requirements and designs, including reviews, change control,
+approvals, and prioritization.
+Clarifying who decides what and when helps
+ensure that decisions are made properly and
+consistently during the initiative.
+A defined governance approach that includes
+the list of decision-makers and a description
+of the change control, prioritization, and
+approvals process.
+Typically involves sponsors, project managers,
+domain subject matter experts, regulators, and
+any additional stakeholders identified.
+Frequently used techniques:
+• Document analysis
+• Interviews
+• Organizational modelling
+• Process modelling
+• Workshops
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task defines the decision-makers, change control process, prioritization approach, approval process, and
+information required to make a decision. It helps ensure that decisions about requirements and designs are
+made properly and consistently, following a process wherein decision-makers have the information they need
+when they need it.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Governance processes, practices, and responsibilities are critical for a wide variety of initiatives.
+Example: Consider a business intelligence initiative for which promoting an enterprise-wide view of information is
+important. Supporting this involves developing infrastructure services in the organization such as data governance
+and metadata management.
+See BABOK Guide – 11.2 The Business Intelligence Perspective and 11.2.1 Change Scope
+Reference (Guidelines and Tools)
+The following resources, if they exist, can be used to
+transform inputs into outputs:
+• Business analysis
+• Performance assessment
+• Business policies
+• Current state description
+• Legal/regulatory information
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Plan Business
+Analysis
+Information
+Management
+Information
+Management
+Approach
+Governance
+Approach
+Stakeholder
+Engagement
+Approach
+Business Analysis
+Approach
+26 The Business Analysis Standard: Business Analysis Planning and Monitoring — Knowledge Area
+Plan Business Analysis Information Management
+To develop an approach for storing and accessing business analysis information.
+Information management helps ensure that
+business analysis information is organized
+in a functional and useful manner, is easily
+accessible to appropriate personnel, and is
+stored for the necessary length of time.
+A defined information management
+approach that describes how business
+analysis information will be stored,
+accessed, and actioned during and after
+change completion.
+Typically involves sponsors, domain subject
+matter experts, regulators, and any additional
+stakeholders identified.
+Frequently used techniques:
+• Interviews
+• Item tracking
+• Lessons learned
+• Mind mapping
+• Process modelling
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task defines how all the information developed by business analysis professionals (including requirements
+and designs) should be captured, organized, stored, traced, and integrated with other information for long-term
+use.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+From redesigning business processes and ensuring all business data is appropriately referenced and available in the new
+process to creating enterprise-level standards around data management, effectively managing information relevant to
+any change effort is an important element of success.
+See Guide to Business Data Analytics – 2.6.3 Data Strategy
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Business analysis
+performance assessment
+• Business policies
+• Information management tools
+• Legal/regulatory information
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Business Analysis
+Approach
+Identify
+Business Analysis
+Performance
+Improvements
+Business Analysis
+Performance
+Assessment
+Performance
+Objectives
+(External)
+The Business Analysis Standard: Business Analysis Planning and Monitoring — Knowledge Area 27
+Identify Business Analysis Performance Improvements
+To assess business analysis work and plan to improve processes where required.
+Create opportunities to understand and
+improve the performance of business analysis
+processes.
+Business analysis performance assessment
+that includes the results of the assessment,
+identified root causes of variances from
+the expected performance, and proposed
+approaches to improve performance.
+Typically involves sponsors, project managers,
+domain subject matter experts, and any
+additional stakeholders identified.
+Frequently used techniques:
+• Lessons learned
+• Metrics and KPIs
+• Process analysis
+• Process modelling
+• Root cause analysis
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task describes managing and monitoring how business analysis work is performed to ensure that
+commitments are met and continuous learning and improvement opportunities are realized.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Improving the process of outcome creation is a mainstay of adaptive approaches and is equally important for predictive
+and hybrid approaches. Embark on change only if it adds value. To ensure value, the performance of the business
+analysis efforts must be measured.
+Example: Constantly looking for ways to improve both individual and team performance allows teams to create
+greater value, faster.
+See Guide to Product Ownership Analysis – 5.7.2 Optimize Value Delivery
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Organizational performance standards
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Stakeholder
+Engagement
+Approach
+Prepare for
+Elicitation
+Elicitation Activity
+Needs Plan
+28 The Business Analysis Standard: Elicitation and Collaboration — Knowledge Area
+Prepare for Elicitation
+To understand the scope of the elicitation activity, select appropriate techniques and plan for (or procure)
+appropriate supporting materials and resources.
+The plan that will ensure information is
+elicited from stakeholders in the most
+suitable way.
+A defined elicitation activity plan that includes
+the planned elicitation activities and their scope,
+activity logistics, and anticipated participants.
+Typically involves sponsors, domain subject
+matter experts, project managers, and any
+additional stakeholders identified.
+Frequently used techniques:
+• Brainstorming
+• Document analysis
+• Estimation
+• Interviews
+• Stakeholder list, map, or personas
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task defines the desired outcomes of each elicitation activity and ensures that stakeholders have the
+necessary information to understand the nature of the activities they will participate in.
+It should include what the elicitation results will help produce, identifying the most appropriate techniques
+to produce these results, defining and planning the elicitation logistics, identifying any materials needed, and
+fostering collaboration during an elicitation activity by preparing stakeholders for the activity.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Building knowledge about the desired change is essential for delivering value quickly. Effective elicitation preparation is
+crucial for any initiative and key to gathering information from stakeholders.
+Example: It is important to prepare for elicitation sessions to identify requirements for a new technology solution.
+See BABOK Guide – 11.3 The Information Technology Perspective and 11.2.1 Change Scope
+Reference (Guidelines and Tools)
+The following resources, if they exist, can be
+used to transform inputs into outputs:
+• Business analysis approach
+• Business objectives
+• Existing business analysis information
+• Potential value
+Task Inputs and Outputs
+Purpose or Need
+Solution
+Techniques Stakeholder
+Description of Change
+Value
+Input Task Output or Deliverable
+Elicitation
+Activity
+Plan
+Conduct
+Elicitation
+Elicitation Results
+(Unconfirmed)
+The Business Analysis Standard: Elicitation and Collaboration — Knowledge Area 29
+Conduct Elicitation
+To draw out, explore, and identify information relevant to the change.
+Gain a deep understanding of the initiative,
+stakeholders, and stakeholder needs.
+Unconfirmed elicited information captured in
+a format best suited to the elicitation activity
+used.
+Typically involves any stakeholders who may
+have relevant knowledge or experience to
+participate in elicitation activities.
+Frequently used techniques:
+• Benchmarking and market analysis
+• Document analysis
+• Interviews
+• Focus groups
+• Workshops
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task is performed to understand stakeholder needs and identify potential solutions that may meet those
+needs. This involves:
+• Conducting research or running experiments
+• Guiding stakeholders and collaborating with them through the elicitation activity
+• Capturing elicitation outcomes
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Both a skill and an art, eliciting good information is critical for every type of initiative. The goal is to build knowledge
+about the change as quickly and accurately as possible.
+Example: When redesigning business processes, it is critical to build a good understanding of the process, underlying
+business rules, business information, performance measures, business decisions driven from the process, and
+process performance measurement.
+See BABOK Guide – 11.5 The Business Process Management Perspective
+Reference (Guidelines and Tools)
+The following resources, if they exist, can be used to
+transform inputs into outputs:
+• Business analysis approach
+• Existing business analysis information
+• Stakeholder engagement approach
+• Supporting materials
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Elicitation Results
+(Unconfirmed)
+Confirm
+Elicitation
+Results
+Elicitation Results
+(Confirmed)
+30 The Business Analysis Standard: Elicitation and Collaboration — Knowledge Area
+Confirm Elicitation Results
+To check the information gathered during an elicitation session for accuracy and consistency
+with other information.
+Gain a shared understanding and clarity about
+the information that the elicitation activities
+produced.
+Confirmed elicitation information that is
+relevant and useful as an input to further
+business analysis work.
+Typically involves any stakeholders that have
+relevant knowledge or experience to confirm
+the elicited information.
+Frequently used techniques:
+• Document analysis
+• Interviews
+• Reviews
+• Workshops
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task helps ensure that stakeholders have a shared understanding of the outcomes of elicitation, that
+elicited information is recorded appropriately, and that it does not contain errors, omissions, conflicts, or
+ambiguity.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Confirming information about the required change and the value to be created is an integral part of any initiative.
+Example: Consider the work to redesign business processes, where the goal is to optimize customer value. Confirming
+elicited information is important to ensure the redesigned process delivers the desired value.
+See BABOK Guide – 11.5 The Business Process Management Perspective
+Reference (Guidelines and Tools)
+The following resources, if they exist, can be used to
+transform inputs into outputs:
+• Elicitation activity plan
+• Existing business analysis information
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Business Analysis
+Information
+Communicate
+Business Analysis
+Information
+Business Analysis
+Information
+(Communicated)
+Stakeholder
+Engagement
+Approach
+The Business Analysis Standard: Elicitation and Collaboration — Knowledge Area 31
+Communicate Business Analysis Information
+To ensure stakeholders have a shared understanding of business analysis information.
+Communicate the appropriate information to
+stakeholders at the right time and in formats
+suitable to gain stakeholder agreement on
+moving forward.
+Business analysis information that is
+properly communicated and understood
+by stakeholders.
+All stakeholders will need to be communicated
+with during the change initiative.
+Frequently used techniques:
+• Interviews
+• Reviews
+• Workshops
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task provides stakeholders with the information they need when they need it. The information is presented
+in a useful format, using the right terminology and concepts.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Building shared understanding supports fast, effective delivery of value for any type of initiative.
+Example: Consider the complexity of developing a new product or service and the people impacted across an
+organization, including representatives from product development, market research, strategy, marketing, sales, and
+customer support.
+See Guide to Product Ownership Analysis – 5.3 Engage the Whole Team
+Reference (Guidelines and Tools)
+The following resources, if they exist, can be
+used to transform inputs into outputs:
+• Business analysis approach
+• Information management approach
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+32 The Business Analysis Standard: Elicitation and Collaboration — Knowledge Area
+Input Task Output or Deliverable
+Business Analysis
+Performance
+Assessment
+Manage
+Stakeholder
+Collaboration
+Stakeholder
+Engagement
+Stakeholder
+Engagement
+Approach
+Manage Stakeholder Collaboration
+To encourage stakeholders to work toward a common goal.
+Collaborative relationships help maintain the
+free flow of information when obstacles and
+setbacks occur and promote a shared effort
+to resolve problems and achieve desired
+outcomes.
+Gained willingness from stakeholders to
+engage in business analysis activities.
+All stakeholders who might be involved in
+collaboration during the change initiative.
+Frequently used techniques:
+• Collaborative games
+• Lessons learned
+• Risk analysis and management
+• Stakeholder list, map, or personas
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task involves working with stakeholders to engage them in the overall business analysis process and
+ensure the necessary outcomes can be delivered.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Stakeholder collaboration is important for every initiative and critical in some contexts. Our responsibility lies
+in facilitating the involvement of subject matter experts (SMEs) who possess the necessary knowledge and
+experience to provide perspective in complex initiatives and contexts such as cybersecurity, artificial intelligence,
+and machine learning.
+See Cybersecurity Learning Manual
+Example: Consider building a new product and the importance of ensuring alignment across organizational strategy,
+from product vision to daily work plans.
+See BABOK Guide – 11.4 The Business Architecture Perspective
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Business analysis approach
+• Business objectives
+• Future state description
+• Recommended actions
+• Risk analysis results
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Requirements
+Trace
+Requirements
+and Designs
+Requirements
+Designs (Traced) Designs
+(Traced)
+The Business Analysis Standard: Requirements and Designs Life Cycle Management — Knowledge Area 33
+Trace Requirements and Designs
+To ensure that requirements and designs at different levels are aligned with one another and to manage the
+effects of a change to one level on related requirements.
+Traceability enables effective impact
+analysis, supports the discovery of
+inconsistencies and gaps in requirements
+and designs, and assists in scope, change,
+risk, time, cost, and communication
+management.
+Requirements and designs are traced and
+available for additional work.
+Typically involves sponsors, domain subject
+matter experts, project managers, and any
+additional stakeholders identified.
+Frequently used techniques:
+• Business rules analysis
+• Functional decomposition
+• Process modelling
+• Scope modelling
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task includes analysis and maintenance of the relationships between requirements, designs, solution
+components, and other work products for impact analysis, coverage, and allocation.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Traceability identifies the lineage of requirements backwards and forwards. It is used to help ensure alignment
+and is important for all types of initiatives.
+Example: Consider building a new product and establishing alignment across organizational strategy, from product
+vision to daily work plans.
+See Guide to Product Ownership Analysis – 5.1.1 Set Up the Organization for Success
+Reference (Guidelines and Tools)
+The following resources, if they exist, can be
+used to transform inputs into outputs:
+• Domain knowledge
+• Information management approach
+• Legal/regulatory information
+• Requirements management
+tools/repository
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Requirements
+Maintain
+Requirements
+and Designs
+Requirements
+Designs (Maintained) Designs
+(Maintained)
+34 The Business Analysis Standard: Requirements and Designs Life Cycle Management — Knowledge Area
+Maintain Requirements and Designs
+To maintain requirement and design accuracy and consistency throughout and beyond the change
+initiative during the entire requirements lifecycle and to support the reuse of requirements and designs
+in other solutions.
+Maintaining up-to-date requirements
+and designs ensures they remain
+valid over time.
+Requirements and designs that are up to date.
+Typically involves subject matter experts,
+operational support, regulators, and any
+additional stakeholders identified.
+Frequently used techniques:
+• Business rules analysis
+• Data flow diagrams
+• Data modelling
+• Use cases and scenarios
+• User stories
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task ensures that requirements and designs are accurate and current throughout the lifecycle and
+facilitates the reuse of requirements and designs where appropriate.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Maintaining information can save costs, time, and effort for a wide variety of initiatives.
+Example: Consider regulatory changes that require an update to financial systems. Having accurate existing information
+speeds up impact analysis and allows for quick identification of required system changes.
+See BABOK Guide – 11.3 The Information Technology Perspective
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Information management approach
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Requirements
+Prioritize
+Requirements
+and Designs
+Requirements
+Designs (Prioritized) Designs
+(Prioritized)
+The Business Analysis Standard: Requirements and Designs Life Cycle Management — Knowledge Area 35
+Prioritize Requirements and Designs
+To rank requirements and designs in order of relative importance.
+Prioritization seeks to achieve maximum value. High-valued requirements and designs are
+maintained and available for use.
+Typically involves subject matter experts,
+operational support, regulators, and any
+additional stakeholders identified.
+Frequently used techniques:
+• Backlog management
+• Decision analysis
+• Estimation
+• Prioritization
+• Risk analysis and management
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task assesses the value, urgency, dependencies, and risks associated with requirements and designs to
+prioritize analysis and delivery work on the most important ones at any given time. Prioritization is an ongoing
+process, with priorities changing as the context changes.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Prioritization is an important task for every type of initiative.
+Example: It becomes critical to prioritize product value for customers when building and evolving a product
+as a series of smaller product increments.
+See Guide to Product Ownership Analysis – 5.5 Deliver Often
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Business constraints
+• Change strategy
+• Domain knowledge
+• Governance approach
+• Requirements architecture
+• Requirements management
+tools/repository
+• Solution scope
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Requirements
+Designs
+Assess
+Requirements
+and Designs
+Changes
+Requirements
+Change
+Assessment
+Proposed
+Change
+Designs
+Change
+Assessment
+36 The Business Analysis Standard: Requirements and Designs Life Cycle Management — Knowledge Area
+Assess Requirement and Design Changes
+To evaluate the implications of proposed changes to requirements and designs.
+Gaining clarity around proposed changes
+helps confirm that each proposed change
+aligns with the overall strategy.
+Requirements and designs change
+assessment with recommendation on
+how to act on proposed changes.
+Typically involves subject matter experts,
+operational support, regulators, and any
+additional stakeholders identified.
+Frequently used techniques:
+• Business rules analysis
+• Decision analysis
+• Document analysis
+• Interviews
+• Risk analysis and management
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task involves conducting an impact analysis to evaluate new and evolving requirements and designs. This
+process determines whether proposed changes will enhance the solution's value and if the changes should be
+acted upon within the scope of the project.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+In a fast-changing environment, business analysis professionals must continually assess what needs to change within an
+initiative and adapt accordingly to deliver greater value.
+Example: A widely acknowledged good practice for developing new products is to learn from customers and adapt to
+their evolving needs.
+See Guide to Product Ownership Analysis – 5.6 Learn Fast
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Change strategy
+• Domain knowledge
+• Governance approach
+• Legal/regulatory information
+• Requirements architecture
+• Solution scope
+Task Inputs and Outputs
+Description of Change
+Techniques Stakeholder
+Value Solution
+Purpose or Need
+Input Task Output or Deliverable
+Requirements
+(Verified)
+Approve
+Requirements
+and Designs
+Requirements
+Designs (Approved) Designs
+(Approved)
+The Business Analysis Standard: Requirements and Designs Life Cycle Management — Knowledge Area 37
+Approve Requirements and Designs
+To obtain approval of requirements and designs to continue with subsequent activities.
+Approved requirements and designs allow
+the work to move forward.
+Requirements and designs agreed upon by
+stakeholders and ready for use in subsequent
+business analysis and solution development
+efforts.
+Typically involves an executive sponsor,
+management, subject matter experts,
+operational support, regulators, and any
+additional stakeholders identified.
+Frequently used techniques:
+• Acceptance and evaluation criteria
+• Decision analysis
+• Item tracking
+• Reviews
+• Workshops
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task helps stakeholders involved in the governance process to reach approval and agreement on
+requirements and designs.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Approval is always necessary, whether it is a lightweight step for adaptive initiatives or a rigorous process
+for complex, predictive initiatives.
+Example: Consider heavily regulated businesses where audit or compliance requirements must be met.
+For these types of initiatives, a rigorous process becomes mandatory.
+See BABOK Guide – 11.3 The Information Technology Perspective
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Change strategy
+• Governance approach
+• Legal/regulatory information
+• Requirements architecture
+• Solution scope
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Needs Analyze Current
+State
+Current State
+Description
+Elicitation Results
+(Confirmed)
+Business
+Requirements
+38 The Business Analysis Standard: Strategy Analysis — Knowledge Area
+Analyze Current State
+To understand why an enterprise needs to change some aspect of how it operates and what would be directly
+or indirectly affected by the change.
+Understanding the current state helps
+determine the extent of the change needed.
+Clearly defined business need and gained
+understanding of the enterprise’s current state.
+Typically involves sponsors, subject matter
+experts, operational support, regulators, and
+any additional stakeholders identified.
+Frequently used techniques:
+• Benchmarking and market analysis
+• Business capability analysis
+• Document analysis
+• Interviews
+• SWOT analysis
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task enables understanding of the business need and how it relates to the way the enterprise functions. It
+sets a baseline and context for change.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+This is often an important consideration for many initiatives.
+Example: Consider a data warehouse implementation where high-level conceptual data models are
+used to map the current state of corporate information, identify information silos, and assess their
+related problems or opportunities.
+See BABOK Guide – 11.2 The Business Intelligence Perspective
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Business analysis approach
+• Enterprise limitation
+• Organizational strategy
+• Solution limitation
+• Solution performance goals
+• Solution performance measures
+• Stakeholder analysis results
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Business
+Requirements
+Define
+Future
+State
+Future State
+Description
+Business
+Objectives
+Potential
+Value
+The Business Analysis Standard: Strategy Analysis — Knowledge Area 39
+Define Future State
+To determine the necessary conditions to meet the business need.
+The enterprise's desired direction to
+achieve the business need.
+The proposed new, removed, and modified
+components of the enterprise and the potential
+value expected.
+Typically involves subject matter experts,
+operational support, regulators, and any
+additional stakeholders identified.
+Frequently used techniques:
+• Acceptance and evaluation criteria
+• Balanced scorecard
+• Business cases
+• Process modelling
+• Prototyping
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task establishes goals and objectives that demonstrate how the business need will be met and identifies
+the areas of the enterprise that must change to achieve them.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Defining the future state can help focus energy and work effort to maximize the value created in different initiatives.
+Example: Consider organizational strategy development work, where defining the future can set the stage for business
+transformation or business model innovation.
+See Strategy to Execution Framework – 2.1 Program Strategy
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Current state description
+• Metrics and key performance
+indicators (KPIs)
+• Organizational strategy
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Elicitation Results
+(Confirmed)
+Requirements
+(Prioritized)
+Business
+Objectives
+Potential Value
+Assess Risks Risk Analysis
+Influences Results
+40 The Business Analysis Standard: Strategy Analysis — Knowledge Area
+Assess Risks
+To understand the undesirable consequences of internal and external forces on the enterprise during a
+transition to (or in) a future state and to recommend a course of action.
+Identifying and understanding risks allows for
+recommending the best strategy to treat them.
+Gained understanding of the risks and the best
+strategy to address them.
+Typically involves sponsors, subject matter
+experts, operational support, regulators,
+testers, and any additional stakeholders
+identified.
+Frequently used techniques:
+• Brainstorming
+• Decision analysis
+• Financial analysis
+• Risk analysis and management
+• Root cause analysis
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task clarifies the uncertainties around the change, considers the effect those uncertainties may have on
+the ability to deliver value through a change, and recommends actions to address risks where appropriate.
+© 2025 International Institute of Business Analysis.
+Certifications: CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Reducing the negative impact of risks is important for various initiatives.
+Example: Consider a business data analytics initiative for which the team has identified potential recommendations.
+Assessing the risks of each allows the team to select an option they can confidently recommend.
+See Guide to Business Data Analytics – 2.5 Use Results to Influence Business Decision-Making
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Business analysis approach
+• Business policies
+• Change strategy
+• Current state description
+• Future state description
+• Identified risks
+• Stakeholder engagement approach
+Task Inputs and Outputs
+Description of Change
+Techniques Stakeholder
+Value Solution
+Purpose or Need
+Input Task Output or Deliverable
+Current State
+Description
+Stakeholder
+Engagement
+Approach
+Define Change
+Strategy Change Strategy
+Future State
+Description
+Risk Analysis
+Results
+Solution Scope
+The Business Analysis Standard: Strategy Analysis — Knowledge Area 41
+Define Change Strategy
+To develop and assess alternative approaches to the change and select the recommended approach.
+An approach that will enable the enterprise
+to transform from current to future state and
+achieve the highest value.
+A defined approach that the organization will
+follow to guide change and a defined solution
+scope that will be achieved through the
+execution of the change strategy.
+Typically involves sponsors, subject matter
+experts, operational support, regulators, users,
+and any additional stakeholders identified.
+Frequently used techniques:
+• Business cases
+• Business capability analysis
+• Business model canvas
+• Organizational modelling
+• Scope modelling
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task performs a gap analysis between the current and future state, assesses options for achieving
+the future state, and recommends the optimal approach, including any transition states. Various change
+strategies can be considered, ranging from small evolutionary changes that build on each other to large
+transformational changes that occur all at once.
+© 2025 International Institute of Business Analysis.
+Certifications: CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+A change strategy can be important for any initiative that involves a transition from a current implementation method to a
+desired future state. It is important in large-scale transformations as well as smaller, operationally driven improvements.
+Example: Consider an enterprise transformation program where there is transitional change and changes to create the
+new operating model.
+See Strategy to Execution Framework – 2.8 Transition Strategy and 2.9 Change and Adoption Strategy
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Business analysis approach
+• Design options
+• Solution recommendations
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Specify and Model
+Requirements and
+Designs
+Requirements
+(Specified and
+Modelled)
+Elicitation
+Results
+Designs
+(Specified and
+Modelled)
+42 The Business Analysis Standard: Requirements Analysis and Design Definition — Knowledge Area
+Specify and Model Requirements and Designs
+To analyze, synthesize, and refine elicitation results into requirements and designs.
+Requirement and design specification and
+analysis serve as a foundation for stakeholder
+discussion to reach consensus on solution
+options.
+Requirements and designs that are specified
+and modelled in the form of text, matrices, and
+diagrams.
+Typically involves any stakeholders who may
+have relevant knowledge or experience to
+participate in these activities.
+Frequently used techniques:
+• Acceptance and evaluation criteria
+• Data modelling
+• Interface analysis
+• Use cases and scenarios
+• User stories
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task describes a set of requirements or designs in enough detail using suitable analytical techniques.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+This task is about capturing important business information that can be effectively reviewed and communicated
+to build a shared understanding of the desired future changes. This is important for various initiatives.
+Example: Models that represent different views of the enterprise can be used to support the
+ongoing delivery of value.
+See BABOK Guide – 11.4 The Business Architecture Perspective
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Modelling notations/standards
+• Modelling tools
+• Requirements architecture
+• Requirements life cycle management tools
+• Solution scope
+Task Inputs and Outputs
+Description of Change
+Techniques Stakeholder
+Value Solution
+Purpose or Need
+Input Task Output or Deliverable
+Requirements
+(Specified and
+Modelled)
+Verify
+Requirements
+and Designs
+Requirements
+(Verified)
+Designs
+(Specified and
+Modelled)
+Designs
+(Verified)
+The Business Analysis Standard: Requirements Analysis and Design Definition — Knowledge Area 43
+Verify Requirements and Designs
+To ensure that requirement and design specification and models meet quality standards and
+are usable for the purpose they serve.
+Verification ensures requirements
+and designs have been defined correctly
+and are ready for validation. It also provides
+the information needed for further work
+to be performed.
+Requirements and designs of sufficient quality
+that can be used as a basis for further work.
+Typically involves subject matter experts
+and any additional stakeholders with
+relevant knowledge or experience to verify
+requirements and designs.
+Frequently used techniques:
+• Acceptance and evaluation criteria
+• Item tracking
+• Metrics and KPIs
+• Reviews
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task ensures that a set of requirements or designs has been developed in enough detail to be usable by a
+particular stakeholder, is internally consistent, and is of high quality.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+The appropriate level of requirement and design verification can improve the quality of outcomes and
+reduce the amount of rework.
+Example: Consider a custom software build for a client requesting a new inventory management system.
+Ongoing verification with relevant experts ensures high-quality requirements and designs that can be
+used to develop the desired software with increased confidence.
+See BABOK Guide – 11.3 The Information Technology Perspective
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Requirements life cycle
+management tools
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Requirements
+(Specified and
+Modelled)
+Validate
+Requirements
+and Designs
+Requirements
+(Validated)
+Designs
+(Specified and
+Modelled)
+Designs
+(Validated)
+44 The Business Analysis Standard: Requirements Analysis and Design Definition — Knowledge Area
+Validate Requirements and Designs
+To ensure that all requirements and designs align with the business requirements and support the delivery
+of needed value.
+Having stakeholders validate the
+requirements and designs ensures they will
+deliver value.
+Validated requirements and designs that
+are aligned with the business goals and
+objectives of the change and will deliver value
+to stakeholders.
+Typically involves subject matter experts
+and any additional stakeholders with
+relevant knowledge or experience to validate
+requirements and designs.
+Frequently used techniques:
+• Acceptance and evaluation criteria
+• Financial analysis
+• Item tracking
+• Metrics and KPIs
+• Reviews
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task assures that stakeholder, solution, and transition requirements align with business requirements,
+that the designs satisfy the requirements, and that both requirements and designs deliver business value
+and support the organization’s goals and objectives.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Every type of initiative requires validation of the outcomes produced. Depending on the approach taken,
+this can occur throughout or at milestone deliveries.
+Example: When using adaptive approaches for developing new products, validation occurs through
+frequent customer feedback sessions.
+See Guide to Product Ownership Analysis – 5.6 Learn Fast
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Business objectives
+• Future state description
+• Potential value
+• Solution scope
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Define
+Requirements
+Architecture
+Requirements
+Solution Scope Architecture
+Information
+Management
+Approach
+Requirements
+The Business Analysis Standard: Requirements Analysis and Design Definition — Knowledge Area 45
+Define Requirements Architecture
+To ensure that the requirements and designs collectively support one another to achieve the objectives fully.
+A requirements architecture ensures that
+all requirements and designs form a single
+whole that supports the overall business
+objectives and produces a useful outcome
+for stakeholders.
+Defined requirements architecture that
+shows the interrelationships among
+requirements and designs.
+Different stakeholders may assist in
+defining, confirming, and assessing
+the completeness of the requirements
+architecture.
+Frequently used techniques:
+• Data modelling
+• Functional decomposition
+• Process modelling
+• Scope modelling
+• Workshops
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task structures all requirements and designs so that they support the overall business purpose for a
+change and work effectively as a cohesive whole.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+In the context of an adaptive lifecycle and when working with less comprehensive documentation, several strategies and
+techniques are effective in ensuring efficiency and future usability.
+By integrating agile methodologies, dispelling misconceptions about documentation, utilizing visual designs/prototypes,
+and using descriptive and prescriptive models, business analysis professionals can effectively work with less
+comprehensive documentation and deliver complete solutions that are efficient and scalable.
+See Agile Extension to the BABOK Guide
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Architecture management software
+• Legal/regulatory information
+• Methodologies and frameworks
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Define Design
+Options Design Options Requirements
+Change Strategy Architecture
+Requirements
+(Validated,
+Prioritized)
+46 The Business Analysis Standard: Requirements Analysis and Design Definition — Knowledge Area
+Define Design Options
+To define the solution approach, identify opportunities to improve the business, allocate requirements across
+solution components, and represent design options that achieve the desired future state.
+An understanding of the potential of the
+future state.
+Defined design options to satisfy the
+business need.
+Typically involves project managers,
+implementation subject matter experts,
+operational support, and any additional
+stakeholders identified.
+Frequently used techniques:
+• Brainstorming
+• Document analysis
+• Mind mapping
+• Root cause analysis
+• Vendor assessment
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task identifies, explores, and describes different ways of meeting the business need. Possible solution
+approaches include creating (i.e. building), purchasing (i.e. buying), or a combination of both.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Avoid deciding on the ideal solution design too early, and remember that the best designs often emerge from ongoing
+conversations with customers to better understand context and needs.
+Example: There are factors to consider when redesigning an end-to-end business process. The process redesign team
+will typically identify options that can be discussed with business experts.
+See BABOK Guide – 11.5 The Business Process Management Perspective
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Existing solutions
+• Future state description
+• Requirements (traced)
+• Solution scope
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Potential Value
+Analyze Potential
+Value and
+Recommend
+Solution
+Solution
+Design Options Recommendation
+The Business Analysis Standard: Requirements Analysis and Design Definition — Knowledge Area 47
+Analyze Potential Value and Recommend Solution
+To estimate the potential value for each design option and establish the most appropriate one to meet
+the enterprise’s requirements.
+To identify and recommend the solution
+option that delivers the greatest overall
+potential value.
+Recommendation of the most appropriate
+solution based on an evaluation of all defined
+design options.
+Typically involves sponsors, project managers,
+subject matter experts, customers, users, and
+any additional stakeholders identified.
+Frequently used techniques:
+• Acceptance and evaluation criteria
+• Estimation
+• Financial analysis
+• Metrics and KPIs
+• Risk analysis and management
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task assesses the business value of a potential solution and compares options, including trade-offs. Each
+option has a mix of advantages and disadvantages to consider. The potential value of a solution to a stakeholder
+is based on the benefits delivered by that solution, associated costs, and identified constraints.
+© 2025 International Institute of Business Analysis.
+Certifications: ECBA, CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+When implementing big ideas, proactively own the solutions you propose while staying objective.
+Example: In a strategic planning session, actively guide discussions by highlighting long-term impacts and short-term
+benefits. Balance your vision with stakeholder input to ensure decisions align with both immediate needs and future
+goals, fostering a collaborative environment that drives comprehensive solutions.
+See Guide to Business Data Analytics – 3.19 The Big Idea
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Business objectives
+• Current state description
+• Future state description
+• Risk analysis results
+• Solution scope
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Implemented
+Solution
+(External)
+Measure
+Solution
+Performance
+Solution
+Performance
+Measures
+Business
+Objectives
+48 The Business Analysis Standard: Solution Evaluation — Knowledge Area
+Measure Solution Performance
+To define performance measures and use the data collected to evaluate the effectiveness of a solution in
+relation to the value it brings.
+The ability to measure the solution’s
+performance against various metrics,
+such as stakeholder satisfaction, process
+efficiency, and financial outcomes.
+Measures that provide information on how
+well the solution is performing or could
+potentially perform.
+Typically involves sponsors, project managers,
+subject matter experts, customers, users,
+regulators, and any additional stakeholders
+identified.
+Frequently used techniques:
+• Acceptance and evaluation criteria
+• Benchmarking and market analysis
+• Metrics and KPIs
+• Non-functional requirements analysis
+• Financial analysis
+Refer to the BABOK Guide for the
+complete list of techniques.
+This taskdefines the most appropriate way to assess the performance of a solution, including how it aligns with
+enterprise goals and objectives, and performs the assessment.
+© 2025 International Institute of Business Analysis.
+Certifications: CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Measuring performance is often the starting point when a facet of an enterprise is underperforming.
+Good analysis can identify appropriate metrics that can provide valuable quantitative data.
+Example: Key performance indicators (KPIs) and objectives and key results (OKRs) can be used to quantify
+issues and establish accurate evaluation parameters for an analytics model that can, in turn, be used to answer
+important research questions.
+See Guide to Business Data Analytics – 2.3.4 Perform Data Analysis
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Change strategy
+• Future state description
+• Requirements (validated)
+• Solution scope
+Task Inputs and Outputs
+Purpose or Need
+Value
+Techniques
+Description of Change
+Solution
+Stakeholder
+Input Task Output or Deliverable
+Potential Value
+Analyze
+Performance
+Measures
+Solution
+Performance
+Analysis
+Solution
+Performance
+Measures
+Analyze Performance Measures
+The Business Analysis Standard: Solution Evaluation — Knowledge Area 49
+To provide insights into the performance of a solution in relation to the value it brings.
+To understand whether the solution is
+bringing the intended value.
+Results of the measurements collected
+and analyzed.
+Typically involves sponsors, project
+managers, subject matter experts, and any
+additional stakeholders identified.
+Frequently used techniques:
+• Acceptance and evaluation criteria
+• Data mining
+• Metrics and KPIs
+• Observation
+• Root cause analysis
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task examines information on a solution's performance, verifies its accuracy, and assesses the value it
+delivers to the enterprise and stakeholders. It also determines whether the solution is meeting business needs.
+© 2025 International Institute of Business Analysis.
+Certifications: CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Meaningful performance measures help drive valuable insights for improvements for various initiatives.
+Example: Consider a team making ongoing improvements to an existing business process. Making minor
+changes minimizes disruption for customers and allows the team to measure the effectiveness of those changes.
+New insights can lead to minor changes that can be measured and analyzed. This can be repeated until
+the desired value is achieved.
+See BABOK Guide – 11.5 The Business Process Management Perspective
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Change strategy
+• Future state description
+• Risk analysis results
+• Solution scope
+Task Inputs and Outputs
+Purpose or Need
+Value Solution
+Techniques Stakeholder
+Description of Change
+Input Task Output or Deliverable
+Implemented
+Solution
+(External)
+Assess Solution
+Limitations
+Solution
+Limitations
+Solution
+Performance
+Analysis
+50 The Business Analysis Standard: Solution Evaluation — Knowledge Area
+Assess Solution Limitations
+To determine the factors internal to the solution that restrict the full realization of value.
+To understand solution limitations and their
+impact on the solution.
+A description of the current limitations of the
+solution, including constraints and defects.
+Typically involves sponsors, customers, end
+users, testers, subject matter experts, and
+any additional stakeholders who can provide
+insights into solution limitations.
+Frequently used techniques:
+• Acceptance and evaluation criteria
+• Item tracking
+• Lessons learned
+• Risk analysis and management
+• Root cause analysis
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task investigates issues within the scope of a solution that may prevent it from meeting current business
+needs and the potential value.
+© 2025 International Institute of Business Analysis.
+Certifications: CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+While assessing solution limitations is typically associated with an existing solution in use, it can also be conducted at
+any stage during solution development.
+Example: Consider building a new product in small increments and reviewing each product increment with potential
+customers. Not only is the team looking for what works well, but they also want to eliminate product limitations to create
+a better-performing product.
+See Guide to Product Ownership Analysis – Obsess About Value
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Change strategy
+• Risk analysis results
+• Solution scope
+Task Inputs and Outputs
+Description of Change
+Techniques Stakeholder
+Value Solution
+Purpose or Need
+Input Task Output or Deliverable
+Assess Enterprise
+Limitations
+Enterprise
+Limitations
+Solution
+Performance
+Analysis
+Current State
+Description
+Implemented or
+Constructed
+Solution
+The Business Analysis Standard: Solution Evaluation — Knowledge Area 51
+Assess Enterprise Limitations
+To determine how factors external to the solution are restricting value realization.
+Understanding limitations at an enterprise
+level can provide insights into multiple areas
+of change.
+A description of the current limitations of
+the enterprise, including how the solution
+performance is impacting the enterprise.
+Typically involves sponsors, subject matter
+experts, customers, end users, regulators,
+and any additional stakeholders who can
+provide insights into enterprise limitations.
+Frequently used techniques:
+• Benchmarking and market analysis
+• Observation
+• Process analysis
+• Risk analysis and management
+• Root cause analysis
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task investigates issues outside the scope of a solution that may be preventing the enterprise from
+realizing the full value that a solution can provide, such as culture, operations, technical components,
+stakeholder interests, or reporting structures.
+© 2025 International Institute of Business Analysis.
+Certifications: CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Enterprise context can hinder any type of solution, whether they are enterprise-wide or smaller and localized.
+Identifying and removing limitations can dramatically improve the value being delivered.
+Example: Consider a recently implemented data warehousing solution that is being underutilized. This may be due to
+stakeholders not fully understanding the solution’s capabilities or not knowing how to use it, or because supporting
+processes have not been clearly defined.
+See BABOK Guide – 11.2 The Business Intelligence Perspective
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Business objectives
+• Change strategy
+• Future state descriptions
+• Risk analysis results
+• Solution scope
+Task Inputs and Outputs
+Description of Change
+Techniques Stakeholder
+Value Solution
+Purpose or Need
+Input Task Output or Deliverable
+Solution
+Limitation
+Recommend
+Actions
+to Increase
+Solution Value
+Recommended
+Actions
+Enterprise
+Limitation
+52 The Business Analysis Standard: Solution Evaluation — Knowledge Area
+Recommend Actions to Increase Solution Value
+To understand the factors that create differences between the potential and actual value and to
+recommend a course of action to align them.
+A compiled list of recommendations to
+maximize solution performance and value
+realization.
+Recommendation of what should be done
+to improve the solution’s value within the
+enterprise.
+Typically involves sponsors, subject matter
+experts, customers, end users, and any
+additional stakeholders identified.
+Frequently used techniques:
+• Decision analysis
+• Financial analysis
+• Prioritization
+• Process analysis
+• Risk analysis and management
+Refer to the BABOK Guide for the
+complete list of techniques.
+This task identifies and defines recommendations for the enterprise to increase the value a solution can deliver.
+This may include removing, improving, replacing, or retiring existing solution elements. It could also include
+taking no action.
+© 2025 International Institute of Business Analysis.
+Certifications: CCBA, CBAP – Refer to the BABOK Guide for study purposes
+Consider...
+Regardless of the approach used, effective business analysis can help create greater value by recommending actions to
+address both solution and enterprise limitations.
+Example: Consider an underperforming solution that has a large technology component. Well-developed
+recommendations could include redesigning processes, developing training modules, or creating learning materials, as
+well as addressing non-functional requirements such as data latency and data quality.
+See BABOK Guide – 11.3 The Information Technology Perspective
+Reference (Guidelines and Tools)
+The following resources, if they exist, can
+be used to transform inputs into outputs:
+• Business objectives
+• Current state description
+• Solution scope
+Task Inputs and Outputs
+Purpose or Need
+Value
+Techniques
+Description of Change
+Solution
+Stakeholder
+The Business Analysis Standard: Summary 53
+6. Summary
+The Business Analysis Standard is the foundation for effective business analysis. It describes
+how business analysis as a discipline:
+• Is used in many industry contexts to deliver exceptional business outcomes
+• Promotes practical application of good practices, processes, methodologies, and techniques
+• Provides a starting point to build organizational standards
+It describes how business analysis as a practice:
+• Focuses on driving value for both organizations and customers through analysis and applying key competencies
+• Can be used at different levels, including strategic, initiative, or delivery, to produce desired results
+• Offers a variety of career paths for business analysis professionals, both new and seasoned
+Professionals who understand business analysis and have a high degree of proficiency and competency
+can leverage those skills and experience in a variety of careers.
+The Standard:
+• Provides a quick, concise, and valuable introduction to business analysis
+• Defines foundational terms
+• Demonstrates the range of initiatives that benefit from good business analysis
+• Emphasizes the equal importance placed on requirements and designs
+• Identifies traceability as a way to connect a team’s work to the overall strategy
+• Introduces the baccm as a construct for effective business analysis
+• Emphasizes the importance of mindset as a prerequisite for good business analysis
+• Illustrates that building the mindset requires deliberate application
+• Identifies foundational competencies and techniques
+• Introduces 30 business analysis tasks within six knowledge areas
+• Provides examples of how the 30 tasks apply to numerous business contexts and across all types of initiatives
+54 The Business Analysis Standard: Summary
+The Business Analysis Standard provides a simplified, comprehensive, inclusive view of foundational
+concepts for effective business analysis in an easy-to-use format and shapes the direction for the
+future development of business analysis standards and resources.
+About IIBA
+For over 20 years, the International Institute of Business Analysis™ (IIBA®) has helped shape the
+practice of business analysis to achieve better enterprise outcomes. A professional association with
+30,000 members, 120 chapters, 1,500 volunteers, and 500 partners worldwide, IIBA supports
+the recognition of business analysis within organizations. It enables networking and community
+engagement, provides foundational standards and resources, and offers internationally recognized
+certification programs for career advancement.
+IIBA Resource Collection
+IIBA resource collection offers a wide range of knowledge and insights into the profession and
+practice of business analysis for the entire business community. Standards such as A Guide to the
+Business Analysis Body of Knowledge (BABOK Guide), the Agile Extension to the BABOK Guide, The
+Guide to Business Data Analytics (BDA Guide), and The Guide to Product Ownership Analysis (POA
+Guide) represent the most widely accepted practices of business analysis around the world.
+For more information, visit iiba.org.
