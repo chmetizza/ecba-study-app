@@ -14,19 +14,11 @@
         <span class="brand-mark" aria-hidden="true">ECBA</span>
         <span class="brand-name">Study Hub</span>
       </a>
-
       <nav class="main-nav" aria-label="Glavna navigacija">
-        <button class="nav-tab active" type="button" data-view="plan">
-          <span data-i18n="nav.plan">14-dnevni načrt</span>
-        </button>
-        <button class="nav-tab" type="button" data-view="exam">
-          <span data-i18n="nav.exam">Simulacija izpita</span>
-        </button>
-        <button class="nav-tab" type="button" data-view="glossary">
-          <span data-i18n="nav.glossary">Slovar</span>
-        </button>
+        <button class="nav-tab active" type="button" data-view="plan"><span data-i18n="nav.plan">14-dnevni načrt</span></button>
+        <button class="nav-tab" type="button" data-view="exam"><span data-i18n="nav.exam">Simulacija izpita</span></button>
+        <button class="nav-tab" type="button" data-view="glossary"><span data-i18n="nav.glossary">Slovar</span></button>
       </nav>
-
       <fieldset class="language-switcher" aria-label="Jezik">
         <legend class="sr-only">Jezik</legend>
         <button type="button" class="language-button active" data-language="sl" aria-pressed="true">SL</button>
@@ -35,215 +27,35 @@
       </fieldset>
     </div>
   </header>
-
   <main id="app" class="app-main" tabindex="-1">
     <section id="plan-view" class="view active" aria-labelledby="plan-heading">
-      <div class="view-heading">
-        <div>
-          <p class="eyebrow" data-i18n="plan.eyebrow">BABOK® Guide v3</p>
-          <h1 id="plan-heading" data-i18n="plan.title">14-dnevni učni načrt</h1>
-        </div>
-        <button id="reset-progress" class="button button-danger-ghost" type="button">
-          <span data-i18n="plan.reset">Ponastavi napredek</span>
-        </button>
-      </div>
-
-      <article class="progress-card">
-        <div class="progress-card-header">
-          <div>
-            <strong id="progress-label" data-i18n="plan.progress">Napredek</strong>
-            <span id="progress-count">0 / 14</span>
-          </div>
-          <span id="progress-percent">0%</span>
-        </div>
-        <div class="progress-track" role="progressbar" aria-label="Napredek učnega načrta" aria-valuemin="0" aria-valuemax="14" aria-valuenow="0">
-          <div id="progress-bar" class="progress-bar"></div>
-        </div>
-      </article>
-
+      <div class="view-heading"><div><p class="eyebrow" data-i18n="plan.eyebrow">BABOK® Guide v3</p><h1 id="plan-heading" data-i18n="plan.title">14-dnevni učni načrt</h1></div><button id="reset-progress" class="button button-danger-ghost" type="button"><span data-i18n="plan.reset">Ponastavi napredek</span></button></div>
+      <article class="progress-card"><div class="progress-card-header"><div><strong id="progress-label" data-i18n="plan.progress">Napredek</strong><span id="progress-count">0 / 14</span></div><span id="progress-percent">0%</span></div><div class="progress-track" role="progressbar" aria-label="Napredek učnega načrta" aria-valuemin="0" aria-valuemax="14" aria-valuenow="0"><div id="progress-bar" class="progress-bar"></div></div></article>
       <div id="study-plan" class="study-grid"></div>
     </section>
-
     <section id="day-view" class="view" aria-labelledby="day-heading">
-      <button id="back-to-plan" class="back-button" type="button">
-        <span aria-hidden="true">←</span>
-        <span data-i18n="day.back">Nazaj na načrt</span>
-      </button>
-
-      <div class="day-heading">
-        <div>
-          <p id="day-babok-reference" class="eyebrow"></p>
-          <h1 id="day-heading"></h1>
-        </div>
-        <span id="day-status" class="status-badge"></span>
-      </div>
-
+      <button id="back-to-plan" class="back-button" type="button"><span aria-hidden="true">←</span><span data-i18n="day.back">Nazaj na načrt</span></button>
+      <div class="day-heading"><div><p id="day-babok-reference" class="eyebrow"></p><h1 id="day-heading"></h1></div><span id="day-status" class="status-badge"></span></div>
       <div class="step-tabs" role="tablist" aria-label="Koraki dnevnega modula">
-        <button id="theory-tab" class="step-tab active" type="button" role="tab" aria-selected="true" aria-controls="theory-panel" data-step="theory">
-          <span class="step-number">1</span>
-          <span data-i18n="day.theory">Teorija</span>
-        </button>
-        <button id="summary-tab" class="step-tab" type="button" role="tab" aria-selected="false" aria-controls="summary-panel" data-step="summary">
-          <span class="step-number">2</span>
-          <span data-i18n="day.summary">Povzetek</span>
-        </button>
-        <button id="quiz-tab" class="step-tab" type="button" role="tab" aria-selected="false" aria-controls="quiz-panel" data-step="quiz">
-          <span class="step-number">3</span>
-          <span data-i18n="day.quiz">Dnevni kviz</span>
-        </button>
+        <button id="theory-tab" class="step-tab active" type="button" role="tab" aria-selected="true" aria-controls="theory-panel" data-step="theory"><span class="step-number">1</span><span data-i18n="day.theory">Teorija</span></button>
+        <button id="summary-tab" class="step-tab" type="button" role="tab" aria-selected="false" aria-controls="summary-panel" data-step="summary"><span class="step-number">2</span><span data-i18n="day.summary">Povzetek</span></button>
+        <button id="quiz-tab" class="step-tab" type="button" role="tab" aria-selected="false" aria-controls="quiz-panel" data-step="quiz"><span class="step-number">3</span><span data-i18n="day.quiz">Dnevni kviz</span></button>
       </div>
-
-      <div id="theory-panel" class="step-panel active" role="tabpanel" aria-labelledby="theory-tab">
-        <article class="content-card theory-card">
-          <h2 data-i18n="day.theory">Teorija</h2>
-          <div id="day-theory" class="theory-content"></div>
-        </article>
-      </div>
-
-      <div id="summary-panel" class="step-panel" role="tabpanel" aria-labelledby="summary-tab" hidden>
-        <article class="content-card">
-          <h2 data-i18n="day.summary">Povzetek</h2>
-          <ul id="day-summary" class="summary-list"></ul>
-        </article>
-      </div>
-
-      <div id="quiz-panel" class="step-panel" role="tabpanel" aria-labelledby="quiz-tab" hidden>
-        <article class="content-card quiz-card">
-          <div class="quiz-card-header">
-            <div>
-              <h2 data-i18n="day.quiz">Dnevni kviz</h2>
-              <p id="daily-quiz-progress"></p>
-            </div>
-            <span id="daily-quiz-score" class="quiz-score"></span>
-          </div>
-          <div id="daily-quiz-container"></div>
-        </article>
-      </div>
+      <div id="theory-panel" class="step-panel active" role="tabpanel" aria-labelledby="theory-tab"><article class="content-card theory-card"><h2 data-i18n="day.theory">Teorija</h2><div id="day-theory" class="theory-content"></div></article></div>
+      <div id="summary-panel" class="step-panel" role="tabpanel" aria-labelledby="summary-tab" hidden><article class="content-card"><h2 data-i18n="day.summary">Povzetek</h2><ul id="day-summary" class="summary-list"></ul></article></div>
+      <div id="quiz-panel" class="step-panel" role="tabpanel" aria-labelledby="quiz-tab" hidden><article class="content-card quiz-card"><div class="quiz-card-header"><div><h2 data-i18n="day.quiz">Dnevni kviz</h2><p id="daily-quiz-progress"></p></div><span id="daily-quiz-score" class="quiz-score"></span></div><div id="daily-quiz-container"></div></article></div>
     </section>
-
     <section id="exam-view" class="view" aria-labelledby="exam-heading">
-      <div id="exam-start-screen" class="exam-start-screen">
-        <article class="exam-introduction">
-          <p class="eyebrow" data-i18n="exam.eyebrow">ECBA poskusni izpit</p>
-          <h1 id="exam-heading" data-i18n="exam.title">Simulacija izpita</h1>
-          <p class="exam-description" data-i18n="exam.description">
-            Preveri svoje znanje v 50-vprašanem izpitu, ki traja največ 60 minut.
-          </p>
-
-          <div class="exam-facts">
-            <div class="exam-fact">
-              <span class="exam-fact-value">50</span>
-              <span data-i18n="exam.questions">Vprašanj</span>
-            </div>
-            <div class="exam-fact">
-              <span class="exam-fact-value">60</span>
-              <span data-i18n="exam.minutes">Minut</span>
-            </div>
-            <div class="exam-fact">
-              <span class="exam-fact-value">70%</span>
-              <span data-i18n="exam.passMark">Meja za opravljanje</span>
-            </div>
-          </div>
-
-          <button id="start-exam" class="button button-primary button-large" type="button">
-            <span data-i18n="exam.start">Začni izpit</span>
-          </button>
-        </article>
-      </div>
-
-      <div id="exam-active-screen" class="exam-layout" hidden>
-        <aside class="exam-sidebar">
-          <div class="exam-sidebar-header">
-            <strong data-i18n="exam.navigation">Navigacija</strong>
-            <div id="exam-timer" class="exam-timer" role="timer" aria-live="off">01:00:00</div>
-          </div>
-          <div id="question-palette" class="question-palette" aria-label="Vprašanja"></div>
-          <div class="palette-legend">
-            <span><i class="legend-dot answered"></i><b data-i18n="exam.answered">Odgovorjeno</b></span>
-            <span><i class="legend-dot unanswered"></i><b data-i18n="exam.unanswered">Neodgovorjeno</b></span>
-            <span><i class="legend-dot flagged"></i><b data-i18n="exam.flagged">Označeno</b></span>
-          </div>
-          <button id="submit-exam" class="button button-primary button-full" type="button">
-            <span data-i18n="exam.submit">Oddaj izpit</span>
-          </button>
-        </aside>
-
-        <article class="exam-question-card">
-          <div class="exam-question-header">
-            <span id="exam-question-number"></span>
-            <button id="flag-question" class="flag-button" type="button" aria-pressed="false">
-              <span aria-hidden="true">⚑</span>
-              <span data-i18n="exam.flagQuestion">Označi za pregled</span>
-            </button>
-          </div>
-          <h2 id="exam-question-text"></h2>
-          <div id="exam-options" class="answer-options"></div>
-          <div class="exam-question-actions">
-            <button id="previous-question" class="button button-secondary" type="button">
-              <span data-i18n="exam.previous">Prejšnje</span>
-            </button>
-            <button id="next-question" class="button button-primary" type="button">
-              <span data-i18n="exam.next">Naslednje</span>
-            </button>
-          </div>
-        </article>
-      </div>
-
-      <div id="exam-results-screen" class="exam-results" hidden>
-        <div id="exam-results-summary"></div>
-        <div id="exam-results-areas"></div>
-        <article class="content-card review-card">
-          <h2 data-i18n="exam.review">Pregled odgovorov</h2>
-          <div id="exam-review"></div>
-        </article>
-        <button id="restart-exam" class="button button-primary" type="button">
-          <span data-i18n="exam.restart">Nov izpit</span>
-        </button>
-      </div>
+      <div id="exam-start-screen" class="exam-start-screen"><article class="exam-introduction"><p class="eyebrow" data-i18n="exam.eyebrow">ECBA poskusni izpit</p><h1 id="exam-heading" data-i18n="exam.title">Simulacija izpita</h1><p class="exam-description" data-i18n="exam.description">Preveri svoje znanje v 50-vprašanem izpitu, ki traja največ 60 minut.</p><div class="exam-facts"><div class="exam-fact"><span class="exam-fact-value">50</span><span data-i18n="exam.questions">Vprašanj</span></div><div class="exam-fact"><span class="exam-fact-value">60</span><span data-i18n="exam.minutes">Minut</span></div><div class="exam-fact"><span class="exam-fact-value">70%</span><span data-i18n="exam.passMark">Meja za opravljanje</span></div></div><button id="start-exam" class="button button-primary button-large" type="button"><span data-i18n="exam.start">Začni izpit</span></button></article></div>
+      <div id="exam-active-screen" class="exam-layout" hidden><aside class="exam-sidebar"><div class="exam-sidebar-header"><strong data-i18n="exam.navigation">Navigacija</strong><div id="exam-timer" class="exam-timer" role="timer" aria-live="off">01:00:00</div></div><div id="question-palette" class="question-palette" aria-label="Vprašanja"></div><div class="palette-legend"><span><i class="legend-dot answered"></i><b data-i18n="exam.answered">Odgovorjeno</b></span><span><i class="legend-dot unanswered"></i><b data-i18n="exam.unanswered">Neodgovorjeno</b></span><span><i class="legend-dot flagged"></i><b data-i18n="exam.flagged">Označeno</b></span></div><button id="submit-exam" class="button button-primary button-full" type="button"><span data-i18n="exam.submit">Oddaj izpit</span></button></aside><article class="exam-question-card"><div class="exam-question-header"><span id="exam-question-number"></span><button id="flag-question" class="flag-button" type="button" aria-pressed="false"><span aria-hidden="true">⚑</span><span data-i18n="exam.flagQuestion">Označi za pregled</span></button></div><h2 id="exam-question-text"></h2><div id="exam-options" class="answer-options"></div><div class="exam-question-actions"><button id="previous-question" class="button button-secondary" type="button"><span data-i18n="exam.previous">Prejšnje</span></button><button id="next-question" class="button button-primary" type="button"><span data-i18n="exam.next">Naslednje</span></button></div></article></div>
+      <div id="exam-results-screen" class="exam-results" hidden><div id="exam-results-summary"></div><div id="exam-results-areas"></div><article class="content-card review-card"><h2 data-i18n="exam.review">Pregled odgovorov</h2><div id="exam-review"></div></article><button id="restart-exam" class="button button-primary" type="button"><span data-i18n="exam.restart">Nov izpit</span></button></div>
     </section>
-
-    <section id="glossary-view" class="view" aria-labelledby="glossary-heading">
-      <div class="view-heading glossary-heading">
-        <div>
-          <p class="eyebrow" data-i18n="glossary.eyebrow">BABOK® slovar</p>
-          <h1 id="glossary-heading" data-i18n="glossary.title">Slovar pojmov</h1>
-        </div>
-        <span id="glossary-count" class="result-count"></span>
-      </div>
-
-      <div class="glossary-controls">
-        <label class="search-field" for="glossary-search">
-          <span class="sr-only" data-i18n="glossary.search">Išči po slovarju</span>
-          <span aria-hidden="true">⌕</span>
-          <input id="glossary-search" type="search" autocomplete="off" data-i18n-placeholder="glossary.searchPlaceholder" placeholder="Išči izraz ali definicijo…">
-        </label>
-
-        <div class="filter-row">
-          <label for="letter-filter" data-i18n="glossary.letter">Črka</label>
-          <select id="letter-filter" aria-label="Filter po črki">
-            <option value="all" data-i18n="glossary.all">Vsi</option>
-          </select>
-
-          <label for="category-filter" data-i18n="glossary.category">Kategorija</label>
-          <select id="category-filter" aria-label="Filter po kategoriji">
-            <option value="all" data-i18n="glossary.allCategories">Vse kategorije</option>
-          </select>
-        </div>
-      </div>
-
-      <div id="glossary-list" class="glossary-list"></div>
-    </section>
+    <section id="glossary-view" class="view" aria-labelledby="glossary-heading"><div class="view-heading glossary-heading"><div><p class="eyebrow" data-i18n="glossary.eyebrow">BABOK® slovar</p><h1 id="glossary-heading" data-i18n="glossary.title">Slovar pojmov</h1></div><span id="glossary-count" class="result-count"></span></div><div class="glossary-controls"><label class="search-field" for="glossary-search"><span class="sr-only" data-i18n="glossary.search">Išči po slovarju</span><span aria-hidden="true">⌕</span><input id="glossary-search" type="search" autocomplete="off" data-i18n-placeholder="glossary.searchPlaceholder" placeholder="Išči izraz ali definicijo…"></label><div class="filter-row"><label for="letter-filter" data-i18n="glossary.letter">Črka</label><select id="letter-filter" aria-label="Filter po črki"><option value="all" data-i18n="glossary.all">Vsi</option></select><label for="category-filter" data-i18n="glossary.category">Kategorija</label><select id="category-filter" aria-label="Filter po kategoriji"><option value="all" data-i18n="glossary.allCategories">Vse kategorije</option></select></div></div><div id="glossary-list" class="glossary-list"></div></section>
   </main>
-
   <div id="toast-region" class="toast-region" role="status" aria-live="polite"></div>
-
-  <noscript>
-    <div class="noscript-message">
-      Za uporabo aplikacije morate omogočiti JavaScript.
-    </div>
-  </noscript>
-
+  <noscript><div class="noscript-message">Za uporabo aplikacije morate omogočiti JavaScript.</div></noscript>
   <script src="js/data.js"></script>
+  <script src="js/glossary.js"></script>
   <script src="js/dataEnhancements.js"></script>
   <script src="js/quizEngine.js"></script>
   <script src="js/app.js"></script>
