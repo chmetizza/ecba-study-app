@@ -6,50 +6,55 @@ const STUDY_DATA = {
         en: "Introduction to Business Analysis and BACCM",
         sl: "Uvod v poslovno analizo in BACCM"
       },
-      babokReference:
-        "BABOK Guide v3 — Chapter 1 and Business Analysis Core Concept Model",
+      babokReference: "BABOK Guide v3 — Chapter 1; The Business Analysis Standard v.A2.0 (2025), Sections 2.1–2.5",
       theory: {
         en:
-          "<p><strong>Business analysis</strong> is the practice of enabling change in an enterprise by defining needs and recommending solutions that deliver value to stakeholders. It is not limited to software requirements. It includes understanding organizational context, identifying opportunities for improvement, and helping stakeholders agree on a solution.</p>" +
-          "<p>The <strong>BACCM</strong> (Business Analysis Core Concept Model) provides six equally important concepts: Change, Need, Solution, Stakeholder, Value, and Context. Together, they form a shared analytical framework. Each concept can be viewed from several perspectives, and the boundaries between concepts are determined by the context.</p>" +
+          "<p><strong>Business analysis</strong> is the practice of enabling change in an enterprise by defining needs and recommending solutions that deliver value to stakeholders within a given context. The purpose is broader than documenting requirements: analysis helps people understand a problem or opportunity, make informed decisions, and work toward desired outcomes.</p>" +
+          "<p>The <strong>Business Analysis Core Concept Model (BACCM)</strong> is a thinking and organizing model for effective business analysis. It consists of six interrelated concepts. The model is most useful when all six concepts and their relationships are considered together.</p>" +
           "<ul>" +
-          "<li><strong>Change:</strong> the transformation of some aspect of an organization or system.</li>" +
-          "<li><strong>Need:</strong> a problem, opportunity, or constraint with the potential to change.</li>" +
-          "<li><strong>Solution:</strong> a specific way of satisfying one or more needs in a context.</li>" +
-          "<li><strong>Stakeholder:</strong> a group or individual with a relationship to the change, need, or solution.</li>" +
-          "<li><strong>Value:</strong> the worth, importance, or usefulness of something to a stakeholder.</li>" +
-          "<li><strong>Context:</strong> the circumstances that influence, facilitate, or constrain change.</li>" +
+          "<li><strong>Change:</strong> a transformation in response to a need. Organizations undertake change to improve outcomes, respond to circumstances, or take advantage of opportunities.</li>" +
+          "<li><strong>Need:</strong> a problem or opportunity to be addressed. A need can motivate change; a change can also create or alter needs by changing the value delivered by existing solutions.</li>" +
+          "<li><strong>Solution:</strong> a specific way of satisfying one or more needs in a context. A solution may combine technology, manual procedures, process changes, business-model updates, or improved organizational capabilities.</li>" +
+          "<li><strong>Stakeholder:</strong> a group or individual with a relationship to the change, need, or solution. Stakeholders may be internal or external and can differ in their interests, impact, and influence.</li>" +
+          "<li><strong>Value:</strong> the worth, importance, or usefulness of something to a stakeholder within a context. Value may be realized through returns and improvements or preserved by reducing losses, risks, or costs. It may be tangible or intangible, and different stakeholders may assess it differently.</li>" +
+          "<li><strong>Context:</strong> the dynamic circumstances that influence, are influenced by, and help explain a change. Relevant context may include goals, culture, processes, technology, regulations, market conditions, infrastructure, and stakeholder attitudes.</li>" +
           "</ul>" +
-          "<p>Business analysis work is organized through <strong>knowledge areas</strong>, <strong>tasks</strong>, <strong>techniques</strong>, and <strong>underlying competencies</strong>. Knowledge areas describe fields of professional practice. Tasks are performed to create required outputs. Techniques provide approaches for completing tasks, while competencies describe behavioural, analytical, and interpersonal abilities.</p>",
+          "<p>The concepts form a connected system: stakeholders experience needs in a context; a need motivates change; a solution responds to the need; and stakeholders assess the value of the change and solution in that context. Ignoring one concept or its relationships can weaken analysis.</p>" +
+          "<p>The BACCM can help practitioners communicate using shared language, evaluate the completeness and quality of analysis, understand impacts, identify development opportunities, and establish a foundation for the work ahead. Business analysis is applicable at strategic, tactical, and operational levels and is not limited to a particular job title or solution type.</p>" +
+          "<p>There is no single analysis approach that fits every initiative. Practices, techniques, processes, and tools should be selected with consideration for the specific context and need. The goal is to support informed decisions and desired outcomes while discovering and maximizing value for stakeholders.</p>",
         sl:
-          "<p><strong>Poslovna analiza</strong> je praksa omogočanja sprememb v podjetju z določanjem potreb in priporočanjem rešitev, ki deležnikom prinašajo vrednost. Ne omejuje se na programske zahteve. Vključuje razumevanje organizacijskega konteksta, prepoznavanje priložnosti za izboljšave in pomoč deležnikom pri dogovoru o rešitvi.</p>" +
-          "<p><strong>BACCM</strong> (osrednji konceptualni model poslovne analize) vključuje šest enakovredno pomembnih pojmov: spremembo, potrebo, rešitev, deležnika, vrednost in kontekst. Skupaj predstavljajo skupni analitični okvir. Vsak pojem je mogoče obravnavati z različnih perspektiv, meje med pojmi pa določa kontekst.</p>" +
+          "<p><strong>Poslovna analiza</strong> je praksa omogočanja sprememb v podjetju z opredeljevanjem potreb in priporočanjem rešitev, ki deležnikom v danem kontekstu prinašajo vrednost. Njen namen je širši od dokumentiranja zahtev: pomaga razumeti problem ali priložnost, sprejemati informirane odločitve in delovati v smeri želenih izidov.</p>" +
+          "<p><strong>BACCM (osrednji konceptualni model poslovne analize)</strong> je miselni in organizacijski model za učinkovito poslovno analizo. Sestavlja ga šest medsebojno povezanih pojmov. Model je najuporabnejši, kadar obravnavamo vseh šest pojmov in njihove odnose skupaj.</p>" +
           "<ul>" +
-          "<li><strong>Sprememba:</strong> preoblikovanje nekega dela organizacije ali sistema.</li>" +
-          "<li><strong>Potreba:</strong> problem, priložnost ali omejitev, ki lahko povzroči spremembo.</li>" +
-          "<li><strong>Rešitev:</strong> določen način zadovoljevanja ene ali več potreb v danem kontekstu.</li>" +
-          "<li><strong>Deležnik:</strong> skupina ali posameznik, ki je povezan s spremembo, potrebo ali rešitvijo.</li>" +
-          "<li><strong>Vrednost:</strong> korist, pomembnost ali uporabnost nečesa za deležnika.</li>" +
-          "<li><strong>Kontekst:</strong> okoliščine, ki vplivajo na spremembo, jo omogočajo ali omejujejo.</li>" +
+          "<li><strong>Sprememba:</strong> preobrazba kot odziv na potrebo. Organizacije uvajajo spremembe za izboljšanje izidov, odzivanje na okoliščine ali izkoriščanje priložnosti.</li>" +
+          "<li><strong>Potreba:</strong> problem ali priložnost, ki jo je treba obravnavati. Potreba lahko spodbudi spremembo; sprememba pa lahko ustvari ali spremeni potrebe, ker vpliva na vrednost obstoječih rešitev.</li>" +
+          "<li><strong>Rešitev:</strong> določen način zadovoljevanja ene ali več potreb v danem kontekstu. Rešitev lahko združuje tehnologijo, ročne postopke, spremembe procesov, posodobitve poslovnega modela ali izboljšanje organizacijskih zmožnosti.</li>" +
+          "<li><strong>Deležnik:</strong> skupina ali posameznik, povezan s spremembo, potrebo ali rešitvijo. Deležniki so lahko notranji ali zunanji ter se razlikujejo po interesih, vplivu in moči.</li>" +
+          "<li><strong>Vrednost:</strong> korist, pomembnost ali uporabnost nečesa za deležnika v danem kontekstu. Vrednost se lahko uresniči z donosi in izboljšavami ali ohrani z zmanjšanjem izgub, tveganj ali stroškov. Lahko je oprijemljiva ali neoprijemljiva, različni deležniki pa jo lahko ocenjujejo različno.</li>" +
+          "<li><strong>Kontekst:</strong> dinamične okoliščine, ki vplivajo na spremembo, so pod njenim vplivom in jo pomagajo pojasniti. Pomembni so lahko cilji, kultura, procesi, tehnologija, predpisi, tržne razmere, infrastruktura in stališča deležnikov.</li>" +
           "</ul>" +
-          "<p>Poslovnoanalitsko delo sestavljajo <strong>področja znanja</strong>, <strong>naloge</strong>, <strong>tehnike</strong> in <strong>temeljne kompetence</strong>. Področja znanja opisujejo področja strokovne prakse. Naloge se izvajajo za ustvarjanje zahtevanih rezultatov. Tehnike so pristopi za izvedbo nalog, kompetence pa opisujejo vedenjske, analitične in medosebne sposobnosti.</p>"
+          "<p>Pojmi tvorijo povezan sistem: deležniki v določenem kontekstu doživljajo potrebe; potreba spodbuja spremembo; rešitev se odziva na potrebo; deležniki pa v tem kontekstu ocenjujejo vrednost spremembe in rešitve. Če zanemarimo kateri koli pojem ali njegove odnose, lahko oslabimo analizo.</p>" +
+          "<p>BACCM pomaga strokovnjakom uporabljati skupen jezik, ocenjevati popolnost in kakovost analize, razumeti vplive, prepoznavati priložnosti za razvoj ter postaviti temelje za nadaljnje delo. Poslovna analiza se uporablja na strateški, taktični in operativni ravni ter ni omejena na določen naziv delovnega mesta ali vrsto rešitve.</p>" +
+          "<p>En sam pristop k analizi ne ustreza vsaki pobudi. Prakse, tehnike, procese in orodja izbiramo glede na konkretni kontekst in potrebo. Cilj je podpirati informirane odločitve in želene izide ter odkrivati in povečevati vrednost za deležnike.</p>"
       },
       summary: {
         en: [
-          "Business analysis enables enterprise change and is concerned with delivering value, not only documenting requirements.",
-          "BACCM has six concepts: Change, Need, Solution, Stakeholder, Value, and Context.",
-          "A solution is a way to satisfy a need; it is not necessarily a software product.",
-          "Context influences how the other five BACCM concepts are understood.",
-          "The BABOK framework includes knowledge areas, tasks, techniques, inputs, outputs, and underlying competencies.",
-          "Different stakeholders may perceive the value of the same solution differently."
+          "Business analysis enables enterprise change by defining needs and recommending solutions that deliver stakeholder value within context.",
+          "BACCM is a thinking and organizing model made up of six interrelated concepts: Change, Need, Solution, Stakeholder, Value, and Context.",
+          "A need is a problem or opportunity; it can motivate change, and change can also alter needs.",
+          "A solution is not necessarily a technology product: it may include processes, manual work, business-model changes, or organizational capabilities.",
+          "Value is stakeholder- and context-dependent; it may be tangible or intangible, realized through gains, or preserved by reducing losses and risks.",
+          "The BACCM supports shared communication, impact analysis, and assessment of the completeness and quality of business analysis.",
+          "Choose analysis practices and techniques to fit the context; there is no single approach suitable for every initiative."
         ],
         sl: [
-          "Poslovna analiza omogoča spremembe v podjetju in je usmerjena v zagotavljanje vrednosti, ne zgolj v dokumentiranje zahtev.",
-          "BACCM vključuje šest pojmov: spremembo, potrebo, rešitev, deležnika, vrednost in kontekst.",
-          "Rešitev je način zadovoljevanja potrebe in ni nujno programski izdelek.",
-          "Kontekst vpliva na razumevanje preostalih petih pojmov BACCM.",
-          "Okvir BABOK vključuje področja znanja, naloge, tehnike, vhode, izhode in temeljne kompetence.",
-          "Različni deležniki lahko vrednost iste rešitve razumejo različno."
+          "Poslovna analiza omogoča spremembe v podjetju z opredeljevanjem potreb in priporočanjem rešitev, ki v danem kontekstu prinašajo vrednost deležnikom.",
+          "BACCM je miselni in organizacijski model šestih povezanih pojmov: sprememba, potreba, rešitev, deležnik, vrednost in kontekst.",
+          "Potreba je problem ali priložnost; lahko spodbudi spremembo, sprememba pa lahko vpliva na potrebe.",
+          "Rešitev ni nujno tehnološki izdelek: vključuje lahko procese, ročno delo, spremembe poslovnega modela ali organizacijske zmožnosti.",
+          "Vrednost je odvisna od deležnika in konteksta; je lahko oprijemljiva ali neoprijemljiva, uresničena z dobički ali ohranjena z zmanjšanjem izgub in tveganj.",
+          "BACCM podpira skupno komunikacijo, analizo vplivov ter ocenjevanje popolnosti in kakovosti poslovne analize.",
+          "Prakse in tehnike analize izberi glede na kontekst; en sam pristop ni primeren za vsako pobudo."
         ]
       },
       quiz: [
@@ -57,115 +62,125 @@ const STUDY_DATA = {
           id: "d1_q1",
           knowledgeArea: "Business Analysis Key Concepts",
           question: {
-            en: "What is the primary purpose of business analysis?",
-            sl: "Kateri je glavni namen poslovne analize?"
+            en: "Which statement best describes business analysis according to the Business Analysis Standard?",
+            sl: "Katera trditev najbolje opisuje poslovno analizo po standardu The Business Analysis Standard?"
           },
           options: {
             en: [
-              "To document every possible system feature",
-              "To enable change and deliver value to stakeholders",
-              "To prepare technical source code",
-              "To replace organizational decision-making"
+              "It is the practice of documenting software features before development.",
+              "It enables enterprise change by defining needs and recommending solutions that deliver stakeholder value within context.",
+              "It is the practice of approving every project decision.",
+              "It is limited to technology implementation projects."
             ],
             sl: [
-              "Dokumentirati vsako možno funkcionalnost sistema",
-              "Omogočiti spremembo in deležnikom zagotoviti vrednost",
-              "Pripraviti tehnično izvorno kodo",
-              "Zamenjati odločanje v organizaciji"
+              "Je praksa dokumentiranja funkcionalnosti programske opreme pred razvojem.",
+              "Omogoča spremembe v podjetju z opredeljevanjem potreb in priporočanjem rešitev, ki deležnikom v danem kontekstu prinašajo vrednost.",
+              "Je praksa odobravanja vseh projektnih odločitev.",
+              "Omejena je na projekte uvajanja tehnologije."
             ]
           },
           correctIndex: 1,
           explanation: {
-            en: "Business analysis enables change by defining needs and recommending solutions that deliver value to stakeholders.",
-            sl: "Poslovna analiza omogoča spremembe tako, da opredeli potrebe in priporoča rešitve, ki deležnikom prinašajo vrednost."
+            en: "The Standard defines business analysis as enabling enterprise change by defining needs and recommending solutions that deliver value to stakeholders within a given context. It is not limited to software or project documentation.",
+            sl: "Standard opredeli poslovno analizo kot omogočanje sprememb v podjetju z opredeljevanjem potreb in priporočanjem rešitev, ki deležnikom v danem kontekstu prinašajo vrednost. Ni omejena na programsko opremo ali projektno dokumentacijo."
           }
         },
         {
           id: "d1_q2",
           knowledgeArea: "Business Analysis Key Concepts",
           question: {
-            en: "Which of the following is NOT one of the six BACCM concepts?",
-            sl: "Kateri od naslednjih pojmov NI eden od šestih pojmov BACCM?"
+            en: "Which set contains all six BACCM core concepts?",
+            sl: "Kateri nabor vsebuje vseh šest osrednjih pojmov BACCM?"
           },
           options: {
-            en: ["Change", "Need", "Requirement", "Context"],
-            sl: ["Sprememba", "Potreba", "Zahteva", "Kontekst"]
+            en: [
+              "Change, Need, Solution, Stakeholder, Value, Context",
+              "Change, Requirement, Product, Customer, Cost, Scope",
+              "Need, Process, Technology, Sponsor, Benefit, Project",
+              "Stakeholder, Requirement, Design, Risk, Cost, Schedule"
+            ],
+            sl: [
+              "Sprememba, potreba, rešitev, deležnik, vrednost, kontekst",
+              "Sprememba, zahteva, izdelek, stranka, strošek, obseg",
+              "Potreba, proces, tehnologija, pokrovitelj, korist, projekt",
+              "Deležnik, zahteva, načrt, tveganje, strošek, urnik"
+            ]
           },
-          correctIndex: 2,
+          correctIndex: 0,
           explanation: {
-            en: "Requirement is not a separate BACCM core concept. The six concepts are Change, Need, Solution, Stakeholder, Value, and Context.",
-            sl: "Zahteva ni samostojen osrednji pojem BACCM. Šest pojmov je sprememba, potreba, rešitev, deležnik, vrednost in kontekst."
+            en: "BACCM consists of Change, Need, Solution, Stakeholder, Value, and Context. The concepts should be considered as an interconnected system.",
+            sl: "BACCM sestavljajo sprememba, potreba, rešitev, deležnik, vrednost in kontekst. Pojme je treba obravnavati kot medsebojno povezan sistem."
           }
         },
         {
           id: "d1_q3",
           knowledgeArea: "Business Analysis Key Concepts",
           question: {
-            en: "Which BACCM concept describes a problem or opportunity that may lead to change?",
-            sl: "Kateri pojem BACCM opisuje problem ali priložnost, ki lahko povzroči spremembo?"
+            en: "A company identifies an opportunity to serve a new customer group. In BACCM terms, what is the opportunity itself?",
+            sl: "Podjetje prepozna priložnost za oskrbo nove skupine strank. Kaj je v okviru BACCM ta priložnost?"
           },
           options: {
-            en: ["Context", "Need", "Solution", "Stakeholder"],
-            sl: ["Kontekst", "Potreba", "Rešitev", "Deležnik"]
+            en: ["A need", "A solution", "A stakeholder", "A change"],
+            sl: ["Potreba", "Rešitev", "Deležnik", "Sprememba"]
           },
-          correctIndex: 1,
+          correctIndex: 0,
           explanation: {
-            en: "A need is a problem, opportunity, or constraint that has the potential to motivate change.",
-            sl: "Potreba je problem, priložnost ali omejitev, ki lahko spodbudi spremembo."
+            en: "A need is a problem or opportunity to be addressed. The opportunity may motivate a change, and a solution may then be proposed to address it.",
+            sl: "Potreba je problem ali priložnost, ki jo je treba obravnavati. Priložnost lahko spodbudi spremembo, nato pa se lahko predlaga rešitev."
           }
         },
         {
           id: "d1_q4",
           knowledgeArea: "Business Analysis Key Concepts",
           question: {
-            en: "Why is context important in business analysis?",
-            sl: "Zakaj je kontekst pomemben pri poslovni analizi?"
+            en: "Which option is the best example of a solution that is not solely a technology product?",
+            sl: "Kateri primer najbolje ponazarja rešitev, ki ni zgolj tehnološki izdelek?"
           },
           options: {
             en: [
-              "It defines the exact implementation technology",
-              "It replaces the need for stakeholders",
-              "It influences whether a change is appropriate and how value is judged",
-              "It is another term for a solution"
+              "A combination of a revised process, staff training, and a software tool",
+              "A list of stakeholder names",
+              "A problem statement without a response",
+              "A market condition that has not been analyzed"
             ],
             sl: [
-              "Določi natančno tehnologijo izvedbe",
-              "Odpravi potrebo po deležnikih",
-              "Vpliva na ustreznost spremembe in presojo vrednosti",
-              "Je drug izraz za rešitev"
+              "Kombinacija spremenjenega procesa, usposabljanja zaposlenih in programskega orodja",
+              "Seznam imen deležnikov",
+              "Opis problema brez predlaganega odziva",
+              "Tržna okoliščina, ki še ni bila analizirana"
             ]
           },
-          correctIndex: 2,
+          correctIndex: 0,
           explanation: {
-            en: "Context includes circumstances that influence, enable, or constrain change and shape how value is interpreted.",
-            sl: "Kontekst vključuje okoliščine, ki vplivajo na spremembo, jo omogočajo ali omejujejo ter oblikujejo razumevanje vrednosti."
+            en: "A solution can combine technology with manual procedures, process changes, business-model updates, and improved organizational capabilities.",
+            sl: "Rešitev lahko združuje tehnologijo z ročnimi postopki, spremembami procesov, posodobitvami poslovnega modela in izboljšanimi organizacijskimi zmožnostmi."
           }
         },
         {
           id: "d1_q5",
           knowledgeArea: "Business Analysis Key Concepts",
           question: {
-            en: "What do BABOK techniques provide?",
-            sl: "Kaj zagotavljajo tehnike BABOK?"
+            en: "A solution reduces operating costs but makes work less convenient for one stakeholder group. What is the most accurate conclusion about value?",
+            sl: "Rešitev zmanjša operativne stroške, vendar eni skupini deležnikov oteži delo. Kateri sklep o vrednosti je najprimernejši?"
           },
           options: {
             en: [
-              "Mandatory organizational policies",
-              "Ways to perform business analysis tasks",
-              "Definitions of every stakeholder",
-              "The official examination pass score"
+              "Value is always identical for every stakeholder.",
+              "The solution has no value because one group is inconvenienced.",
+              "Value depends on stakeholder perspective and context, so benefits and concerns should both be assessed.",
+              "Only monetary returns count as value."
             ],
             sl: [
-              "Obvezne organizacijske politike",
-              "Načine izvajanja nalog poslovne analize",
-              "Definicije vseh deležnikov",
-              "Uradni minimalni rezultat za opravljanje izpita"
+              "Vrednost je vedno enaka za vse deležnike.",
+              "Rešitev nima vrednosti, ker eni skupini oteži delo.",
+              "Vrednost je odvisna od perspektive deležnikov in konteksta, zato je treba oceniti koristi in pomisleke.",
+              "Kot vrednost štejejo samo denarni donosi."
             ]
           },
-          correctIndex: 1,
+          correctIndex: 2,
           explanation: {
-            en: "Techniques are methods and approaches that support the performance of business analysis tasks.",
-            sl: "Tehnike so metode in pristopi, ki podpirajo izvajanje nalog poslovne analize."
+            en: "The Standard describes value as stakeholder- and context-dependent. Value may be tangible or intangible, and a solution can create different outcomes for different stakeholders; analysis should make those trade-offs visible.",
+            sl: "Standard opredeli vrednost kot odvisno od deležnika in konteksta. Vrednost je lahko oprijemljiva ali neoprijemljiva, rešitev pa lahko različnim deležnikom prinese različne izide; analiza mora te kompromise jasno pokazati."
           }
         }
       ]
@@ -176,52 +191,53 @@ const STUDY_DATA = {
         en: "Key Terms, Stakeholders, and Requirements Classification",
         sl: "Ključni pojmi, deležniki in razvrščanje zahtev"
       },
-      babokReference:
-        "BABOK Guide v3 — Chapter 2 and Requirements Classification Schema",
+      babokReference: "BABOK Guide v3 — Chapter 2; The Business Analysis Standard v.A2.0 (2025), Sections 4.4.1–4.4.3",
       theory: {
         en:
-          "<p>A <strong>stakeholder</strong> is a group or individual with a relationship to the change, need, or solution. Stakeholders influence or are affected by business analysis work, and one person may represent more than one stakeholder role.</p>" +
-          "<p>Stakeholder roles can include customers, end users, suppliers, sponsors, regulators, project managers, domain experts, implementation subject matter experts, testers, and operational support staff. Business analysts identify stakeholders, understand their interests and responsibilities, and determine how they contribute information or make decisions.</p>" +
-          "<p>A <strong>requirement</strong> is a usable representation of a need. Requirements describe capabilities or conditions that a solution must satisfy. A <strong>design</strong> describes how a solution may satisfy a requirement. The distinction depends on the perspective: a design at one level may become a requirement for a more detailed design.</p>" +
-          "<p>The BABOK Requirements Classification Schema has four categories:</p>" +
+          "<p>A <strong>stakeholder</strong> is a group or individual with a relationship to a change, need, or solution. Stakeholders may be internal or external. Their interests, impact, and influence can differ, so identifying and understanding relevant stakeholders is important when analyzing needs and expected value.</p>" +
+          "<p>A <strong>requirement</strong> is a usable representation of a need. Requirements focus on understanding what kind of value could be delivered when the need is fulfilled. A <strong>design</strong> is a usable representation of a solution and focuses on how value might be realized if that solution is built. Requirements and designs are interdependent: exploring a design can reveal new requirements, while a changed requirement can lead to a revised design.</p>" +
+          "<p>The BABOK requirements classification schema has four main types:</p>" +
           "<ul>" +
-          "<li><strong>Business requirements:</strong> goals and objectives at the enterprise level that explain why a change is undertaken.</li>" +
-          "<li><strong>Stakeholder requirements:</strong> the needs of a stakeholder or stakeholder group that must be met to achieve business requirements.</li>" +
-          "<li><strong>Solution requirements:</strong> capabilities and qualities that a solution must have to meet stakeholder requirements. These include functional and non-functional requirements.</li>" +
-          "<li><strong>Transition requirements:</strong> temporary capabilities needed to move from the current state to the future state, such as data conversion or user training.</li>" +
+          "<li><strong>Business requirements:</strong> statements of goals, objectives, and outcomes that explain why a change has been initiated. They may apply to an enterprise, a business area, or an initiative.</li>" +
+          "<li><strong>Stakeholder requirements:</strong> stakeholder needs that must be met to achieve business requirements. They can provide a bridge between business requirements and solution requirements.</li>" +
+          "<li><strong>Solution requirements:</strong> capabilities and qualities of a solution that meet stakeholder requirements. Functional requirements describe the behaviour and information the solution must manage; non-functional requirements describe conditions or qualities the solution must have.</li>" +
+          "<li><strong>Transition requirements:</strong> temporary capabilities or conditions needed to move from the current state to the future state. Examples include data conversion, training, and business continuity arrangements.</li>" +
           "</ul>" +
-          "<p><strong>Functional requirements</strong> describe behaviour or functions that a solution performs. <strong>Non-functional requirements</strong> describe conditions or qualities of the solution, such as usability, reliability, performance, security, and maintainability.</p>",
+          "<p>Requirements and designs are not simply documents: they may be represented by individual artifacts, sets of documents, or models. Their purpose matters more than their format. For example, a need to reduce the time required to pick and pack an order is a requirement; a process model showing a proposed way to do that work is a design.</p>" +
+          "<p><strong>Traceability</strong> tracks relationships from the original stakeholder need to requirements, designs, and solution components. Backward traceability links an item to its source or need; forward traceability links it to the solution. A traceability model can reveal missing requirements or solution components that are not supported by a requirement or design, and it helps assess the impact of a proposed change.</p>",
         sl:
-          "<p><strong>Deležnik</strong> je skupina ali posameznik, ki je povezan s spremembo, potrebo ali rešitvijo. Deležniki vplivajo na delo poslovne analize ali jih to delo prizadene; ena oseba lahko zastopa več vlog deležnikov.</p>" +
-          "<p>Vloge deležnikov lahko vključujejo stranke, končne uporabnike, dobavitelje, pokrovitelje, regulatorje, vodje projektov, strokovnjake s področja, strokovnjake za izvedbo, preizkuševalce in osebje za operativno podporo. Poslovni analitik prepozna deležnike, razume njihove interese in odgovornosti ter ugotovi, kako prispevajo informacije ali sprejemajo odločitve.</p>" +
-          "<p><strong>Zahteva</strong> je uporabna predstavitev potrebe. Zahteve opisujejo zmožnosti ali pogoje, ki jih mora rešitev izpolniti. <strong>Načrt rešitve</strong> opisuje, kako lahko rešitev izpolni zahtevo. Razlika je odvisna od perspektive: načrt rešitve na eni ravni lahko postane zahteva za podrobnejši načrt.</p>" +
-          "<p>Shema razvrščanja zahtev BABOK vključuje štiri kategorije:</p>" +
+          "<p><strong>Deležnik</strong> je skupina ali posameznik, povezan s spremembo, potrebo ali rešitvijo. Deležniki so lahko notranji ali zunanji. Njihovi interesi, vpliv in moč se lahko razlikujejo, zato je pri analizi potreb in pričakovane vrednosti pomembno prepoznati in razumeti ustrezne deležnike.</p>" +
+          "<p><strong>Zahteva</strong> je uporabna predstavitev potrebe. Zahteve se osredotočajo na razumevanje, kakšno vrednost bi lahko zagotovili z zadovoljitvijo potrebe. <strong>Načrt rešitve</strong> je uporabna predstavitev rešitve in se osredotoča na to, kako bi se vrednost lahko uresničila, če bi rešitev izdelali. Zahteve in načrti rešitev so medsebojno odvisni: raziskovanje načrta lahko razkrije nove zahteve, sprememba zahteve pa lahko zahteva spremembo načrta.</p>" +
+          "<p>Shema razvrščanja zahtev BABOK vključuje štiri glavne vrste:</p>" +
           "<ul>" +
-          "<li><strong>Poslovne zahteve:</strong> cilji na ravni podjetja, ki pojasnjujejo, zakaj se izvaja sprememba.</li>" +
-          "<li><strong>Zahteve deležnikov:</strong> potrebe deležnika ali skupine deležnikov, ki jih je treba zadovoljiti za dosego poslovnih zahtev.</li>" +
-          "<li><strong>Zahteve rešitve:</strong> zmožnosti in lastnosti, ki jih mora imeti rešitev za izpolnjevanje zahtev deležnikov. Vključujejo funkcionalne in nefunkcionalne zahteve.</li>" +
-          "<li><strong>Prehodne zahteve:</strong> začasne zmožnosti, potrebne za prehod iz sedanjega v prihodnje stanje, na primer pretvorba podatkov ali usposabljanje uporabnikov.</li>" +
+          "<li><strong>Poslovne zahteve:</strong> izjave o ciljih in izidih, ki pojasnjujejo, zakaj je bila uvedena sprememba. Veljajo lahko za podjetje, poslovno področje ali pobudo.</li>" +
+          "<li><strong>Zahteve deležnikov:</strong> potrebe deležnikov, ki jih je treba zadovoljiti za dosego poslovnih zahtev. Lahko predstavljajo povezavo med poslovnimi zahtevami in zahtevami rešitve.</li>" +
+          "<li><strong>Zahteve rešitve:</strong> zmožnosti in lastnosti rešitve, ki izpolnjujejo zahteve deležnikov. Funkcionalne zahteve opisujejo vedenje in informacije, ki jih mora rešitev upravljati; nefunkcionalne zahteve opisujejo pogoje ali lastnosti, ki jih mora rešitev imeti.</li>" +
+          "<li><strong>Prehodne zahteve:</strong> začasne zmožnosti ali pogoji, potrebni za prehod iz sedanjega v prihodnje stanje. Primeri so pretvorba podatkov, usposabljanje in zagotavljanje neprekinjenega poslovanja.</li>" +
           "</ul>" +
-          "<p><strong>Funkcionalne zahteve</strong> opisujejo vedenje ali funkcije, ki jih izvaja rešitev. <strong>Nefunkcionalne zahteve</strong> opisujejo pogoje ali lastnosti rešitve, kot so uporabnost, zanesljivost, učinkovitost, varnost in vzdržljivost.</p>"
+          "<p>Zahteve in načrti rešitev niso zgolj dokumenti: predstavimo jih lahko kot posamezne artefakte, zbirke dokumentov ali modele. Pomembnejši od oblike je njihov namen. Potreba po skrajšanju časa za pripravo in pakiranje naročila je na primer zahteva; procesni model, ki prikazuje predlagani način dela, pa je načrt rešitve.</p>" +
+          "<p><strong>Sledljivost</strong> spremlja povezave od prvotne potrebe deležnika do zahtev, načrtov in komponent rešitve. Povratna sledljivost poveže element z njegovim virom ali potrebo; napredna sledljivost ga poveže z rešitvijo. Model sledljivosti lahko razkrije manjkajoče zahteve ali komponente rešitve, ki nimajo ustrezne podpore v zahtevi ali načrtu, ter pomaga oceniti vpliv predlagane spremembe.</p>"
       },
       summary: {
         en: [
-          "A stakeholder is a group or individual related to a change, need, or solution.",
-          "Requirements represent needs; designs describe possible ways to satisfy them.",
-          "Business requirements describe enterprise objectives and the rationale for change.",
-          "Stakeholder requirements describe the needs of stakeholders.",
-          "Solution requirements include functional requirements and non-functional requirements.",
-          "Transition requirements are temporary and support movement from the current state to the future state.",
-          "Functional requirements describe solution behaviour; non-functional requirements describe solution qualities or conditions."
+          "A stakeholder is a group or individual related to a change, need, or solution; stakeholders may be internal or external and have different interests and influence.",
+          "A requirement is a usable representation of a need and addresses what value could be delivered.",
+          "A design is a usable representation of a solution and addresses how value might be realized.",
+          "Requirements and designs inform one another and may evolve together during analysis.",
+          "The four main classifications are business, stakeholder, solution, and transition requirements.",
+          "Solution requirements include functional requirements (behaviour and information) and non-functional requirements (conditions and qualities).",
+          "Transition requirements are temporary and help move from the current state to the future state.",
+          "Traceability links needs, requirements, designs, and solution components, supporting coverage and change-impact analysis."
         ],
         sl: [
-          "Deležnik je skupina ali posameznik, povezan s spremembo, potrebo ali rešitvijo.",
-          "Zahteve predstavljajo potrebe; načrti rešitev opisujejo mogoče načine njihovega zadovoljevanja.",
-          "Poslovne zahteve opisujejo cilje podjetja in razloge za spremembo.",
-          "Zahteve deležnikov opisujejo njihove potrebe.",
-          "Zahteve rešitve vključujejo funkcionalne in nefunkcionalne zahteve.",
+          "Deležnik je skupina ali posameznik, povezan s spremembo, potrebo ali rešitvijo; deležniki so lahko notranji ali zunanji ter imajo različne interese in vpliv.",
+          "Zahteva je uporabna predstavitev potrebe in obravnava, kakšno vrednost bi lahko zagotovili.",
+          "Načrt rešitve je uporabna predstavitev rešitve in obravnava, kako bi se vrednost lahko uresničila.",
+          "Zahteve in načrti rešitev se medsebojno dopolnjujejo ter se lahko med analizo razvijajo skupaj.",
+          "Štiri glavne klasifikacije so poslovne zahteve, zahteve deležnikov, zahteve rešitve in prehodne zahteve.",
+          "Zahteve rešitve vključujejo funkcionalne zahteve (vedenje in informacije) ter nefunkcionalne zahteve (pogoji in lastnosti).",
           "Prehodne zahteve so začasne in podpirajo prehod iz sedanjega v prihodnje stanje.",
-          "Funkcionalne zahteve opisujejo vedenje rešitve; nefunkcionalne zahteve opisujejo njene lastnosti ali pogoje."
+          "Sledljivost povezuje potrebe, zahteve, načrte in komponente rešitve ter podpira preverjanje pokritosti in analizo vpliva sprememb."
         ]
       },
       quiz: [
@@ -229,126 +245,72 @@ const STUDY_DATA = {
           id: "d2_q1",
           knowledgeArea: "Business Analysis Key Concepts",
           question: {
-            en: "A statement that the organization must reduce processing time by 30 percent is an example of which requirement type?",
-            sl: "Izjava, da mora organizacija skrajšati čas obdelave za 30 odstotkov, je primer katere vrste zahteve?"
+            en: "A statement that an organization intends to improve customer retention is best classified as which type of requirement?",
+            sl: "Izjava, da namerava organizacija izboljšati zadržanje strank, se najbolje razvrsti kot katera vrsta zahteve?"
           },
           options: {
             en: [
-              "Stakeholder requirement",
               "Business requirement",
+              "Stakeholder requirement",
               "Transition requirement",
-              "Design"
+              "Functional solution requirement"
             ],
             sl: [
-              "Zahteva deležnika",
               "Poslovna zahteva",
+              "Zahteva deležnika",
               "Prehodna zahteva",
-              "Načrt rešitve"
+              "Funkcionalna zahteva rešitve"
             ]
           },
-          correctIndex: 1,
+          correctIndex: 0,
           explanation: {
-            en: "An organizational objective is a business requirement because it describes why and for what purpose the change is undertaken.",
-            sl: "Organizacijski cilj je poslovna zahteva, ker opisuje, zakaj in s kakšnim namenom se izvaja sprememba."
+            en: "Business requirements state the goals, objectives, or outcomes that explain why a change is initiated. Improving customer retention is an organizational outcome.",
+            sl: "Poslovne zahteve izražajo cilje in izide, ki pojasnjujejo, zakaj se uvede sprememba. Izboljšanje zadržanja strank je organizacijski izid."
           }
         },
         {
           id: "d2_q2",
           knowledgeArea: "Business Analysis Key Concepts",
           question: {
-            en: "What does a functional requirement primarily describe?",
-            sl: "Kaj predvsem opisuje funkcionalna zahteva?"
+            en: "A customer-service team needs to see a customer's order history to resolve enquiries. In the requirements/design distinction, this statement primarily expresses:",
+            sl: "Ekipa za podporo strankam mora videti zgodovino naročil stranke, da lahko razreši vprašanja. Kaj ta izjava predvsem izraža v razlikovanju med zahtevo in načrtom?"
           },
           options: {
             en: [
-              "A temporary data migration",
-              "A behaviour or capability of the solution",
-              "An organizational objective",
-              "A stakeholder's preferred meeting date"
+              "A need, represented as a requirement",
+              "A complete solution design",
+              "A transition capability",
+              "A solution component that has already been implemented"
             ],
             sl: [
-              "Začasno selitev podatkov",
-              "Vedenje ali zmožnost rešitve",
-              "Organizacijski cilj",
-              "Želeni datum srečanja posameznega deležnika"
+              "Potrebo, predstavljeno kot zahtevo",
+              "Popoln načrt rešitve",
+              "Prehodno zmožnost",
+              "Že uvedeno komponento rešitve"
             ]
           },
-          correctIndex: 1,
+          correctIndex: 0,
           explanation: {
-            en: "Functional requirements describe the behaviour, actions, or capabilities that a solution must provide.",
-            sl: "Funkcionalne zahteve opisujejo vedenje, dejanja ali zmožnosti, ki jih mora zagotoviti rešitev."
+            en: "A requirement is a usable representation of a need. A design would describe a possible solution, such as a screen or model that provides access to the order history.",
+            sl: "Zahteva je uporabna predstavitev potrebe. Načrt bi opisal mogočo rešitev, na primer zaslon ali model, ki omogoča dostop do zgodovine naročil."
           }
         },
         {
           id: "d2_q3",
           knowledgeArea: "Business Analysis Key Concepts",
           question: {
-            en: "Data migration needed only during implementation is an example of which requirement type?",
-            sl: "Selitev podatkov, potrebna samo med uvajanjem rešitve, je primer katere vrste zahteve?"
+            en: "A solution must allow trained staff to complete a task within two minutes. This is best classified as:",
+            sl: "Rešitev mora usposobljenemu osebju omogočiti dokončanje naloge v dveh minutah. Kako to zahtevo najbolje razvrstimo?"
           },
           options: {
             en: [
-              "Business requirement",
-              "Stakeholder requirement",
-              "Transition requirement",
-              "Non-functional requirement"
+              "A non-functional solution requirement about performance",
+              "A business requirement",
+              "A transition requirement",
+              "A stakeholder role"
             ],
             sl: [
-              "Poslovna zahteva",
-              "Zahteva deležnika",
-              "Prehodna zahteva",
-              "Nefunkcionalna zahteva"
-            ]
-          },
-          correctIndex: 2,
-          explanation: {
-            en: "Implementation-only migration or conversion capabilities are transition requirements because they are temporary and support the move to the future state.",
-            sl: "Selitev ali pretvorba podatkov, potrebna samo med uvajanjem, je prehodna zahteva, ker je začasna in podpira prehod v prihodnje stanje."
-          }
-        },
-        {
-          id: "d2_q4",
-          knowledgeArea: "Business Analysis Key Concepts",
-          question: {
-            en: "Which statement best distinguishes a requirement from a design?",
-            sl: "Katera trditev najbolje razlikuje zahtevo od načrta rešitve?"
-          },
-          options: {
-            en: [
-              "A requirement is always technical, while a design is always financial",
-              "A requirement represents a need, while a design describes how to satisfy it",
-              "A design represents a need, while a requirement defines implementation",
-              "There is no conceptual difference"
-            ],
-            sl: [
-              "Zahteva je vedno tehnična, načrt pa vedno finančen",
-              "Zahteva predstavlja potrebo, načrt pa opisuje, kako jo zadovoljiti",
-              "Načrt predstavlja potrebo, zahteva pa določa izvedbo",
-              "Med njima ni konceptualne razlike"
-            ]
-          },
-          correctIndex: 1,
-          explanation: {
-            en: "A requirement represents a need; a design describes a possible way to satisfy that need. The same item can be viewed as a design at one level and a requirement at another.",
-            sl: "Zahteva predstavlja potrebo, načrt pa opisuje mogoč način njenega zadovoljevanja. Isti element je lahko na eni ravni načrt, na drugi pa zahteva."
-          }
-        },
-        {
-          id: "d2_q5",
-          knowledgeArea: "Business Analysis Key Concepts",
-          question: {
-            en: "A usability requirement states that 95 percent of trained users must complete a task within five minutes. How is it classified?",
-            sl: "Zahteva uporabnosti določa, da mora 95 odstotkov usposobljenih uporabnikov opraviti nalogo v petih minutah. Kako jo razvrstimo?"
-          },
-          options: {
-            en: [
-              "Non-functional solution requirement",
-              "Business requirement",
-              "Transition requirement",
-              "Stakeholder role"
-            ],
-            sl: [
-              "Nefunkcionalna zahteva rešitve",
+              "Nefunkcionalna zahteva rešitve glede učinkovitosti",
               "Poslovna zahteva",
               "Prehodna zahteva",
               "Vloga deležnika"
@@ -356,8 +318,52 @@ const STUDY_DATA = {
           },
           correctIndex: 0,
           explanation: {
-            en: "Usability is a quality of the solution, so this measurable usability condition is a non-functional solution requirement.",
-            sl: "Uporabnost je lastnost rešitve, zato je ta merljiv pogoj uporabnosti nefunkcionalna zahteva rešitve."
+            en: "A measurable time condition describes a quality or condition of the solution, so it is a non-functional solution requirement.",
+            sl: "Merljiv časovni pogoj opisuje lastnost oziroma pogoj rešitve, zato gre za nefunkcionalno zahtevo rešitve."
+          }
+        },
+        {
+          id: "d2_q4",
+          knowledgeArea: "Business Analysis Key Concepts",
+          question: {
+            en: "User training required only to move employees to a new operating process is an example of:",
+            sl: "Usposabljanje uporabnikov, potrebno samo za prehod zaposlenih na nov način dela, je primer:"
+          },
+          options: {
+            en: [
+              "A transition requirement",
+              "A business requirement",
+              "A functional requirement",
+              "A design option"
+            ],
+            sl: [
+              "Prehodne zahteve",
+              "Poslovne zahteve",
+              "Funkcionalne zahteve",
+              "Možnosti načrta rešitve"
+            ]
+          },
+          correctIndex: 0,
+          explanation: {
+            en: "Transition requirements are temporary capabilities or conditions needed to move from the current state to the future state. Training is a typical example.",
+            sl: "Prehodne zahteve so začasne zmožnosti ali pogoji, potrebni za prehod iz sedanjega v prihodnje stanje. Usposabljanje je značilen primer."
+          }
+        },
+        {
+          id: "d2_q5",
+          knowledgeArea: "Requirements Life Cycle Management",
+          question: {
+            en: "A proposed change affects a solution component. Which practice helps identify the related need, requirements, designs, and other components that may also be affected?",
+            sl: "Predlagana sprememba vpliva na komponento rešitve. Katera praksa pomaga prepoznati povezano potrebo, zahteve, načrte in druge komponente, ki bi lahko bile prav tako prizadete?"
+          },
+          options: {
+            en: ["Traceability", "Stakeholder classification", "Value definition", "Elicitation preparation"],
+            sl: ["Sledljivost", "Razvrščanje deležnikov", "Opredelitev vrednosti", "Priprava na elicitacijo"]
+          },
+          correctIndex: 0,
+          explanation: {
+            en: "Traceability tracks relationships from stakeholder needs through requirements and designs to solution components. It supports change control and impact analysis.",
+            sl: "Sledljivost spremlja povezave od potreb deležnikov prek zahtev in načrtov do komponent rešitve. Podpira nadzor sprememb in analizo vpliva."
           }
         }
       ]
